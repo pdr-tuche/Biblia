@@ -4,6 +4,8 @@
 use App\Http\Controllers\TestamentoController;
 use App\Http\Controllers\LivroController;
 use App\Http\Controllers\VersiculoController;
+use App\Http\Controllers\AuthController;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -45,15 +47,17 @@ Route::get('/teste', function () {
 // Route::put('/versiculo/{id}', [VersiculoController::class, 'update']);
 // Route::delete('/versiculo/{id}', [VersiculoController::class, 'destroy']);
 
-// versiculo - apiResource faz tudo oq em cima faz, a diferença é que ele faz tudo de uma vez só, porém, no lugar de {id} ficara o nome do modulo(mas so em termo estetico, ele espera o id no lugar do {versiculo}).
-Route::apiResource('versiculo', VersiculoController::class);
+Route::group(['middleware' => ['auth:sanctum']], function (){
+    // versiculo - apiResource faz tudo oq em cima faz, a diferença é que ele faz tudo de uma vez só, porém, no lugar de {id} ficara o nome do modulo(mas so em termo estetico, ele espera o id no lugar do {versiculo}).
+    Route::apiResource('versiculo', VersiculoController::class);
 
-// testamento e livro - apiResources faz tudo oq apiResource faz, no entanto, ele faz para mais de um modulo.
-Route::apiResources([
-    'testamento' => TestamentoController::class,
-    'livro' => LivroController::class
-]);
-
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+    // testamento e livro - apiResources faz tudo oq apiResource faz, no entanto, ele faz para mais de um modulo.
+    Route::apiResources([
+        'testamento' => TestamentoController::class,
+        'livro' => LivroController::class
+    ]);
 });
+
+
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
