@@ -32,7 +32,8 @@ class TestamentoController extends Controller
     public function show(string $id)
     {
         // $testamento= Testamento::findOrFail($id);
-        $testamento = Testamento::find($id);
+        // $testamento = Testamento::find($id);
+        $testamento = Testamento::with('livros')->find($id);
         if($testamento)
             return response()->json($testamento, 200);
         return response()->json(['message' => 'testamento não encontrado'], 404);

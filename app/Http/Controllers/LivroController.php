@@ -32,7 +32,7 @@ class LivroController extends Controller
     public function show(string $id)
     {
         // $livro= Livro::findOrFail($id); // se nao for encontrado retorna um erro
-        $livro = Livro::find($id);
+        $livro = Livro::with('testamento')->find($id);
         if ($livro)
             return response()->json($livro, 200);
         return response()->json(['message' => 'livro não encontrado'], 404);

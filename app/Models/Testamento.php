@@ -12,4 +12,10 @@ class Testamento extends Model
     protected $fillable = [
         'nome',
     ];
+
+    // Relacionamento com a tabela livros
+    public function livros()
+    {
+        return $this->hasMany(Livro::class);
+    }
 }

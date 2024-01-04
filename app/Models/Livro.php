@@ -10,4 +10,9 @@ class Livro extends Model
     use HasFactory;
 
     protected $fillable = ['nome','posicao', 'abreviacao', 'testamento_id'];
+
+    public function testamento()
+    {
+        return $this->belongsTo(Testamento::class);
+    }
 }
