@@ -1,0 +1,51 @@
+_id: req_31b24c06cecf4b918dd20814a261e2b3
+type: Request
+parentId: fld_2906c2199d50423f97f354337a1b7f2b
+modified: 1704371784542
+created: 1704359887922
+url: http://127.0.0.1:8000/api/livro/
+name: Create Livro
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_df322599f4b64d62b432f3427418d175
+      name: nome
+      value: sfasfafs
+      description: ""
+    - id: pair_42524cca010648bd9f13288274c95454
+      name: posicao
+      value: "3"
+      description: ""
+    - id: pair_7168793376be405996f96a45a164f619
+      name: abreviacao
+      value: asfaf
+      description: ""
+    - id: pair_b6022255b1b340b481d49c0d239253cf
+      name: testamento_id
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_eb5cfa55209d46d5b1c8217a1577ca87
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_e58634d7473c47b0969b4d60b205ccfe
+  - id: pair_b6087a372bdb4f0c988ff192f99f7b64
+    name: Accept
+    value: Application/json
+    description: ""
+authentication:
+  type: bearer
+  token: 1|Fmfo14nJlIS8QgzCag94hPd5uiHl7Q8ZwVpdBrBt3c6542a1
+metaSortKey: -1704359870461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

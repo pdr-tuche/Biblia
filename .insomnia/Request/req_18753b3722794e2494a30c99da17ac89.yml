@@ -1,0 +1,41 @@
+_id: req_18753b3722794e2494a30c99da17ac89
+type: Request
+parentId: fld_1a6856bdb5534ee0a2ee1204f7ec9d2a
+modified: 1704388375580
+created: 1704370578060
+url: http://127.0.0.1:8000/api/login
+name: Login User
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_0d876717f93c41e6b96eaf1325b3e085
+      name: email
+      value: contato.nevespedro@gmail.com
+      description: ""
+    - id: pair_e26d3a1ba1c141daa3de5846f4a93616
+      name: password
+      value: "12345678"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_b017c2317bd34b6abd8fe050b11ba827
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_f03bd1aa0fa84ae3b1b8f64f2c91e3ff
+  - id: pair_dd939954de3644909dba2fbaf2077a1c
+    name: accept
+    value: aplication/json
+    description: ""
+authentication: {}
+metaSortKey: -1704370578060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

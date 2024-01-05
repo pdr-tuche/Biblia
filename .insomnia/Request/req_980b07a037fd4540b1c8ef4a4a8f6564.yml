@@ -1,0 +1,25 @@
+_id: req_980b07a037fd4540b1c8ef4a4a8f6564
+type: Request
+parentId: fld_2906c2199d50423f97f354337a1b7f2b
+modified: 1704372868369
+created: 1704359887930
+url: http://127.0.0.1:8000/api/livro/9
+name: Delete Livro
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: 1|Fmfo14nJlIS8QgzCag94hPd5uiHl7Q8ZwVpdBrBt3c6542a1
+metaSortKey: -1704359870261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

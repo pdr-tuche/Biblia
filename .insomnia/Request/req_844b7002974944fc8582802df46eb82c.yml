@@ -1,0 +1,31 @@
+_id: req_844b7002974944fc8582802df46eb82c
+type: Request
+parentId: fld_82923712369343c59819a59615d4ca02
+modified: 1704359872186
+created: 1704359473033
+url: http://127.0.0.1:8000/api/testamento/3
+name: Update Testamento
+description: ""
+method: PUT
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_c8f308200dcc4452975258cd5b6957c2
+      name: nome
+      value: Teste
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1704359870361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

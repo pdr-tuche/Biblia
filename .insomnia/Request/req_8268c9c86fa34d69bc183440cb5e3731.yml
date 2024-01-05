@@ -1,0 +1,23 @@
+_id: req_8268c9c86fa34d69bc183440cb5e3731
+type: Request
+parentId: fld_a6ecc7e6108e4d508ea5e37eb6f9fa14
+modified: 1704360767544
+created: 1704360459115
+url: http://127.0.0.1:8000/api/versiculo/3
+name: Delete Versiculo
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1704359870261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_3de42f35cac1432ebec066905b5327fc
+type: Request
+parentId: fld_1a6856bdb5534ee0a2ee1204f7ec9d2a
+modified: 1704370586457
+created: 1704369204021
+url: http://127.0.0.1:8000/api/register
+name: Create User
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_cbfdab85d95a41bb92882350db5a345b
+      name: name
+      value: Pedro
+      description: ""
+    - id: pair_d216998ae9984b4c86b6d521a121eaf7
+      name: email
+      value: contato.nevespedro@gmail.com
+      description: ""
+    - id: pair_fa1bf01258ad4233a0e3bb4d34fbac29
+      name: password
+      value: "1234567"
+      description: ""
+    - id: pair_d5e82699513f4ba5a634bc3800a92036
+      name: password_confirmation
+      value: "1234567"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_e92d8ca1939e41c0b281111919831668
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_5cc4ed76a21345448dec7f92658769af
+  - id: pair_acbe42ead313415ea45e77ad6f095dff
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1704369204021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

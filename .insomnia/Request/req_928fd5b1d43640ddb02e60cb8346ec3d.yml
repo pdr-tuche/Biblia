@@ -1,0 +1,30 @@
+_id: req_928fd5b1d43640ddb02e60cb8346ec3d
+type: Request
+parentId: fld_82923712369343c59819a59615d4ca02
+modified: 1704388513996
+created: 1704359248387
+url: http://127.0.0.1:8000/api/testamento/1
+name: Get Testamento
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_b39448422f4542e48dc7b9def01d75a6
+  - id: pair_f810174a8fa54f02bbd6bee6af2acbd3
+    name: accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: 1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768
+metaSortKey: -1704359870461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

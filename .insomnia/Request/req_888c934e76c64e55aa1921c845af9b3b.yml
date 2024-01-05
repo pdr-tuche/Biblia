@@ -1,0 +1,51 @@
+_id: req_888c934e76c64e55aa1921c845af9b3b
+type: Request
+parentId: fld_a6ecc7e6108e4d508ea5e37eb6f9fa14
+modified: 1704361459306
+created: 1704361389322
+url: http://127.0.0.1:8000/api/versiculo/1
+name: Update Versiculo
+description: ""
+method: PUT
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_8bff841e4564487e9fe0076a675eaf56
+      name: capitulo
+      value: "1"
+      description: ""
+    - id: pair_3e35ccf34eff4f7a84c0b0c61de68366
+      name: versiculo
+      value: "2"
+      description: ""
+    - id: pair_b87f40b45988442b98c335141e9ce652
+      name: texto
+      value: No princípio criou Deus o céu e a terra.
+      description: ""
+      type: text
+      multiline: false
+    - id: pair_caa8ce31a11940b48e0432ab92863388
+      name: livro_id
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_eb5cfa55209d46d5b1c8217a1577ca87
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_e58634d7473c47b0969b4d60b205ccfe
+  - id: pair_b6087a372bdb4f0c988ff192f99f7b64
+    name: Accept
+    value: Application/json
+    description: ""
+authentication: {}
+metaSortKey: -1704359870436
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

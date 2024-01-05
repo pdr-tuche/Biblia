@@ -1,0 +1,23 @@
+_id: req_9e9f834f2be14736afcbd136c470a39e
+type: Request
+parentId: wrk_52d0041253004f6886e384da66943ec8
+modified: 1704362374483
+created: 1704362354290
+url: 127.0.0.1:8000/api/teste
+name: Teste
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1704362354290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_71e0ceb44e1741deb38378b743f9dddf
+type: Request
+parentId: fld_82923712369343c59819a59615d4ca02
+modified: 1704359870313
+created: 1704359608674
+url: http://127.0.0.1:8000/api/testamento/3
+name: Delete Testamento
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1704359870261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

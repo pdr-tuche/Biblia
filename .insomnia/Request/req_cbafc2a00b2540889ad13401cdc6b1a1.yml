@@ -1,0 +1,25 @@
+_id: req_cbafc2a00b2540889ad13401cdc6b1a1
+type: Request
+parentId: fld_2906c2199d50423f97f354337a1b7f2b
+modified: 1704382438212
+created: 1704359887914
+url: http://127.0.0.1:8000/api/livro/1
+name: Get Livro
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: 1|Fmfo14nJlIS8QgzCag94hPd5uiHl7Q8ZwVpdBrBt3c6542a1
+metaSortKey: -1704359870411
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

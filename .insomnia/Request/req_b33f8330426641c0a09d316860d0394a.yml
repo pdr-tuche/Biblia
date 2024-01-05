@@ -1,0 +1,31 @@
+_id: req_b33f8330426641c0a09d316860d0394a
+type: Request
+parentId: fld_82923712369343c59819a59615d4ca02
+modified: 1704359876775
+created: 1704357254459
+url: http://127.0.0.1:8000/api/testamento
+name: Create Testamento
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_775a8c1b389046fab4b1b2008e4b0a78
+      name: nome
+      value: Teste Testamento
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1704359870411
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

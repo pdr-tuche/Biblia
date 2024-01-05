@@ -1,0 +1,34 @@
+_id: req_379ab8db36b34fdbbbc5e2c11110a600
+type: Request
+parentId: fld_a6ecc7e6108e4d508ea5e37eb6f9fa14
+modified: 1704388526768
+created: 1704360459104
+url: http://127.0.0.1:8000/api/versiculo/
+name: Get Versiculo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_88c1419e7a254487be719220c8b22c14
+  - id: pair_abe353582c2e4e4b8019fb5ea800b495
+    name: accept
+    value: application/json
+    description: ""
+  - id: pair_55f6cfb65a4a48cd904d776bbab79c79
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: 1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768
+metaSortKey: -1704359870411
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
