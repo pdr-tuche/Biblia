@@ -1,0 +1,134 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "nm",
+      "en": "nm"
+    },
+    "name": "N\u00fameros",
+    "author": "Mois\u00e9s",
+    "group": "Pentateuco",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 34,
+    "verses": 29
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Disse mais o Senhor a Mois\u00e9s:"
+    },
+    {
+      "number": 2,
+      "text": "\"D\u00ea ordem aos israelitas e diga-lhes: Quando voc\u00eas entrarem em Cana\u00e3, a terra que lhes ser\u00e1 sorteada como heran\u00e7a ter\u00e1 estas fronteiras:"
+    },
+    {
+      "number": 3,
+      "text": "\"O lado sul come\u00e7ar\u00e1 no deserto de Zim, junto \u00e0 fronteira de Edom. No leste, sua fronteira sul come\u00e7ar\u00e1 na extremidade do mar Salgado,"
+    },
+    {
+      "number": 4,
+      "text": "passar\u00e1 pelo sul da subida de Acrabim, prosseguir\u00e1 at\u00e9 Zim e ir\u00e1 para o sul de Cades-Barn\u00e9ia. Depois passar\u00e1 por Hazar-Adar e ir\u00e1 at\u00e9 Azmom,"
+    },
+    {
+      "number": 5,
+      "text": "onde far\u00e1 a volta, juntando-se ao ribeiro do Egito para terminar no Mar."
+    },
+    {
+      "number": 6,
+      "text": "A fronteira ocidental de voc\u00eas ser\u00e1 o litoral do mar Grande. Ser\u00e1 essa a fronteira do oeste."
+    },
+    {
+      "number": 7,
+      "text": "Esta ser\u00e1 a fronteira norte: fa\u00e7am uma linha desde o mar Grande at\u00e9 o monte Hor,"
+    },
+    {
+      "number": 8,
+      "text": "e do monte Hor at\u00e9 Lebo-Hamate. O limite da fronteira ser\u00e1 Zedade,"
+    },
+    {
+      "number": 9,
+      "text": "prosseguir\u00e1 at\u00e9 Zifrom e terminar\u00e1 em Hazar-En\u00e3. Ser\u00e1 essa a fronteira norte de voc\u00eas."
+    },
+    {
+      "number": 10,
+      "text": "Esta ser\u00e1 a fronteira oriental: fa\u00e7am uma linha de Hazar-En\u00e3 at\u00e9 Sef\u00e3."
+    },
+    {
+      "number": 11,
+      "text": "A fronteira descer\u00e1 de Sef\u00e3 at\u00e9 Ribla, no lado oriental de Aim, e prosseguir\u00e1 ao longo das encostas a leste do mar de Quinerete."
+    },
+    {
+      "number": 12,
+      "text": "A fronteira descer\u00e1 ao longo do Jord\u00e3o e terminar\u00e1 no mar Salgado. Ser\u00e1 essa a terra de voc\u00eas, com as suas fronteiras de todos os lados\"."
+    },
+    {
+      "number": 13,
+      "text": "Mois\u00e9s ordenou aos israelitas: \"Distribuam a terra por sorteio como heran\u00e7a. O Senhor ordenou que seja dada \u00e0s nove tribos e meia,"
+    },
+    {
+      "number": 14,
+      "text": "porque as fam\u00edlias da tribo de R\u00faben, da tribo de Gade e da metade da tribo de Manass\u00e9s j\u00e1 receberam a heran\u00e7a delas."
+    },
+    {
+      "number": 15,
+      "text": "Estas duas tribos e meia receberam sua heran\u00e7a no lado leste do Jord\u00e3o, do outro lado de Jeric\u00f3, na dire\u00e7\u00e3o do nascer do sol\"."
+    },
+    {
+      "number": 16,
+      "text": "O Senhor disse a Mois\u00e9s:"
+    },
+    {
+      "number": 17,
+      "text": "\"Estes s\u00e3o os nomes dos homens que dever\u00e3o distribuir a terra a voc\u00eas como heran\u00e7a: o sacerdote Eleazar e Josu\u00e9, filho de Num."
+    },
+    {
+      "number": 18,
+      "text": "Designem um l\u00edder de cada tribo para ajudar a distribuir a terra."
+    },
+    {
+      "number": 19,
+      "text": "Estes s\u00e3o os seus nomes: \"Calebe, filho de Jefon\u00e9, da tribo de Jud\u00e1;"
+    },
+    {
+      "number": 20,
+      "text": "Samuel, filho de Ami\u00fade, da tribo de Sime\u00e3o;"
+    },
+    {
+      "number": 21,
+      "text": "Elidade, filho de Quislom, da tribo de Benjamim;"
+    },
+    {
+      "number": 22,
+      "text": "Buqui, filho de Jogli, o l\u00edder da tribo de D\u00e3;"
+    },
+    {
+      "number": 23,
+      "text": "Haniel, filho de \u00c9fode, o l\u00edder da tribo de Manass\u00e9s, filho de Jos\u00e9;"
+    },
+    {
+      "number": 24,
+      "text": "Quemuel, filho de Sift\u00e3, o l\u00edder da tribo de Efraim, filho de Jos\u00e9;"
+    },
+    {
+      "number": 25,
+      "text": "Elizaf\u00e3, filho de Parnaque, o l\u00edder da tribo de Zebulom;"
+    },
+    {
+      "number": 26,
+      "text": "Paltiel, filho de Az\u00e3, o l\u00edder da tribo de Issacar;"
+    },
+    {
+      "number": 27,
+      "text": "Ai\u00fade, filho de Selomi, o l\u00edder da tribo de Aser;"
+    },
+    {
+      "number": 28,
+      "text": "Pedael, filho de Ami\u00fade, o l\u00edder da tribo de Naftali\"."
+    },
+    {
+      "number": 29,
+      "text": "Foram esses os homens a quem o Senhor ordenou que distribu\u00edssem a heran\u00e7a aos israelitas na terra de Cana\u00e3."
+    }
+  ]
+}

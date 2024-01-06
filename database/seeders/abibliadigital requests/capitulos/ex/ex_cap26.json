@@ -1,0 +1,166 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "ex",
+      "en": "ex"
+    },
+    "name": "\u00caxodo",
+    "author": "Mois\u00e9s",
+    "group": "Pentateuco",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 26,
+    "verses": 37
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Fa\u00e7a o tabern\u00e1culo com dez cortinas internas de linho fino tran\u00e7ado e de fios de tecido azul, roxo e vermelho, e nelas mande bordar querubins."
+    },
+    {
+      "number": 2,
+      "text": "Todas as cortinas internas ter\u00e3o a mesma medida: doze metros e sessenta cent\u00edmetros de comprimento e um metro e oitenta cent\u00edmetros de largura."
+    },
+    {
+      "number": 3,
+      "text": "Prenda cinco dessas cortinas internas uma com a outra e fa\u00e7a o mesmo com as outra cinco."
+    },
+    {
+      "number": 4,
+      "text": "Fa\u00e7a la\u00e7adas de tecido azul ao longo da borda da cortina interna, na extremidade do primeiro conjunto de cortinas internas; o mesmo ser\u00e1 feito \u00e0 cortina interna na extremidade do outro conjunto."
+    },
+    {
+      "number": 5,
+      "text": "Fa\u00e7a cinq\u00fcenta la\u00e7adas numa cortina interna e cinq\u00fcenta la\u00e7adas na cortina interna que est\u00e1 na extremidade do outro conjunto, de modo que as la\u00e7adas estar\u00e3o opostas umas \u00e0s outras."
+    },
+    {
+      "number": 6,
+      "text": "Fa\u00e7a tamb\u00e9m cinq\u00fcenta colchetes de ouro com os quais se prender\u00e3o as cortinas internas uma na outra, para que o tabern\u00e1culo seja um todo."
+    },
+    {
+      "number": 7,
+      "text": "\"Com o total de onze cortinas internas de p\u00ealos de cabra fa\u00e7a uma tenda para cobrir o tabern\u00e1culo."
+    },
+    {
+      "number": 8,
+      "text": "As onze cortinas internas ter\u00e3o o mesmo tamanho: treze metros e meio de comprimento e um metro e oitenta cent\u00edmetros de largura."
+    },
+    {
+      "number": 9,
+      "text": "Prenda de um lado cinco cortinas internas e tamb\u00e9m as outras seis do outro lado. Dobre em duas partes a sexta cortina interna na frente da tenda."
+    },
+    {
+      "number": 10,
+      "text": "Fa\u00e7a cinq\u00fcenta la\u00e7adas ao longo da borda da cortina interna na extremidade do primeiro conjunto de cortinas, e tamb\u00e9m ao longo da borda da cortina interna do outro conjunto."
+    },
+    {
+      "number": 11,
+      "text": "Em seguida fa\u00e7a cinq\u00fcenta colchetes de bronze e ponha-os nas la\u00e7adas para unir a tenda como um todo."
+    },
+    {
+      "number": 12,
+      "text": "Quanto \u00e0 sobra no comprimento das cortinas internas da tenda, a meia cortina interna que sobrar ser\u00e1 pendurada na parte de tr\u00e1s do tabern\u00e1culo."
+    },
+    {
+      "number": 13,
+      "text": "As dez cortinas internas ser\u00e3o quarenta e cinco cent\u00edmetros mais compridas de cada lado; e o que sobrar ser\u00e1 pendurado nos dois lados do tabern\u00e1culo, para cobri-lo."
+    },
+    {
+      "number": 14,
+      "text": "Fa\u00e7a tamb\u00e9m para a tenda uma cobertura de pele de carneiro tingida de vermelho, e por cima desta uma cobertura de couro."
+    },
+    {
+      "number": 15,
+      "text": "\"Fa\u00e7a arma\u00e7\u00f5es verticais de madeira de ac\u00e1cia para o tabern\u00e1culo."
+    },
+    {
+      "number": 16,
+      "text": "Cada arma\u00e7\u00e3o ter\u00e1 quatro metros e meio de comprimento por setenta cent\u00edmetros de largura,"
+    },
+    {
+      "number": 17,
+      "text": "com dois encaixes paralelos um ao outro. Todas as arma\u00e7\u00f5es do tabern\u00e1culo devem ser feitas dessa maneira."
+    },
+    {
+      "number": 18,
+      "text": "Fa\u00e7a vinte arma\u00e7\u00f5es para o lado sul do tabern\u00e1culo"
+    },
+    {
+      "number": 19,
+      "text": "e quarenta bases de prata debaixo delas: duas bases para cada arma\u00e7\u00e3o, uma debaixo de cada encaixe."
+    },
+    {
+      "number": 20,
+      "text": "Para o outro lado, o lado norte do tabern\u00e1culo, fa\u00e7a vinte arma\u00e7\u00f5es"
+    },
+    {
+      "number": 21,
+      "text": "e quarenta bases de prata, duas debaixo de cada arma\u00e7\u00e3o."
+    },
+    {
+      "number": 22,
+      "text": "Fa\u00e7a seis arma\u00e7\u00f5es para o lado ocidental do tabern\u00e1culo,"
+    },
+    {
+      "number": 23,
+      "text": "e duas arma\u00e7\u00f5es na parte de tr\u00e1s, nos cantos."
+    },
+    {
+      "number": 24,
+      "text": "As arma\u00e7\u00f5es nesses dois cantos ser\u00e3o duplas, desde a parte inferior at\u00e9 a superior, colocadas numa \u00fanica argola; ambas ser\u00e3o assim."
+    },
+    {
+      "number": 25,
+      "text": "Desse modo, haver\u00e1 oito arma\u00e7\u00f5es e dezesseis bases de prata, duas debaixo de cada arma\u00e7\u00e3o."
+    },
+    {
+      "number": 26,
+      "text": "\"Fa\u00e7a tamb\u00e9m travess\u00f5es de madeira de ac\u00e1cia: cinco para as arma\u00e7\u00f5es de um lado do tabern\u00e1culo,"
+    },
+    {
+      "number": 27,
+      "text": "cinco para as do outro lado e cinco para as do lado ocidental, na parte de tr\u00e1s do tabern\u00e1culo."
+    },
+    {
+      "number": 28,
+      "text": "O travess\u00e3o central se estender\u00e1 de uma extremidade \u00e0 outra entre as arma\u00e7\u00f5es."
+    },
+    {
+      "number": 29,
+      "text": "Revista de ouro as arma\u00e7\u00f5es e fa\u00e7a argolas de ouro para sustentar os travess\u00f5es, os quais tamb\u00e9m ter\u00e3o que ser revestidos de ouro."
+    },
+    {
+      "number": 30,
+      "text": "\"Fa\u00e7a o tabern\u00e1culo de acordo com o modelo que lhe foi mostrado no monte."
+    },
+    {
+      "number": 31,
+      "text": "\"Fa\u00e7a um v\u00e9u de linho fino tran\u00e7ado e de fios de tecido azul, roxo e vermelho, e mande bordar nele querubins."
+    },
+    {
+      "number": 32,
+      "text": "Pendure-o com ganchos de ouro em quatro colunas de madeira de ac\u00e1cia revestidas de ouro e fincadas em quatro bases de prata."
+    },
+    {
+      "number": 33,
+      "text": "Pendure o v\u00e9u pelos colchetes e coloque atr\u00e1s do v\u00e9u a arca da alian\u00e7a. O v\u00e9u separar\u00e1 o Lugar Santo do Lugar Sant\u00edssimo."
+    },
+    {
+      "number": 34,
+      "text": "Coloque a tampa sobre a arca da alian\u00e7a no Lugar Sant\u00edssimo."
+    },
+    {
+      "number": 35,
+      "text": "Coloque a mesa do lado de fora do v\u00e9u, no lado norte do tabern\u00e1culo; e o candelabro em frente dela, no lado sul."
+    },
+    {
+      "number": 36,
+      "text": "\"Para a entrada da tenda fa\u00e7a uma cortina de linho fino tran\u00e7ado e de fios de tecido azul, roxo e vermelho, obra de bordador."
+    },
+    {
+      "number": 37,
+      "text": "Fa\u00e7a ganchos de ouro para essa cortina e cinco colunas de madeira de ac\u00e1cia revestidas de ouro. Mande fundir para eles cinco bases de bronze. \""
+    }
+  ]
+}

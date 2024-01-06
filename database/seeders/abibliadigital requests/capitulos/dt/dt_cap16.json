@@ -1,0 +1,106 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "dt",
+      "en": "dt"
+    },
+    "name": "Deuteron\u00f4mio",
+    "author": "Mois\u00e9s",
+    "group": "Pentateuco",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 16,
+    "verses": 22
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Observem o m\u00eas de abibe e celebrem a P\u00e1scoa do Senhor, do seu Deus, pois no m\u00eas de abibe, de noite, ele os tirou do Egito."
+    },
+    {
+      "number": 2,
+      "text": "Ofere\u00e7am como sacrif\u00edcio da P\u00e1scoa ao Senhor, ao seu Deus, um animal dos rebanhos de bois ou de ovelhas no local que o Senhor escolher para habita\u00e7\u00e3o do seu Nome."
+    },
+    {
+      "number": 3,
+      "text": "N\u00e3o o comam com p\u00e3o fermentado, mas durante sete dias comam p\u00e3es sem fermento, o p\u00e3o da afli\u00e7\u00e3o, pois foi \u00e0s pressas que voc\u00eas sa\u00edram do Egito, para que todos os dias da sua vida voc\u00eas se lembrem da \u00e9poca em que sa\u00edram do Egito."
+    },
+    {
+      "number": 4,
+      "text": "Durante sete dias, n\u00e3o permitam que seja encontrado fermento com voc\u00eas em toda a sua terra. Tampouco permitam que alguma carne sacrificada \u00e0 tarde do primeiro dia permane\u00e7a at\u00e9 a manh\u00e3 seguinte."
+    },
+    {
+      "number": 5,
+      "text": "N\u00e3o ofere\u00e7am o sacrif\u00edcio da P\u00e1scoa em nenhuma das cidades que o Senhor, o seu Deus, lhe der;"
+    },
+    {
+      "number": 6,
+      "text": "sacrifique-a apenas no local que ele escolher para habita\u00e7\u00e3o do seu Nome. Ali voc\u00eas oferecer\u00e3o o sacrif\u00edcio da P\u00e1scoa \u00e0 tarde, ao p\u00f4r-do-sol, na data da sua partida do Egito."
+    },
+    {
+      "number": 7,
+      "text": "Voc\u00eas cozinhar\u00e3o a carne do animal e a comer\u00e3o no local que o Senhor, o seu Deus, escolher. E, pela manh\u00e3, cada um de voc\u00eas voltar\u00e1 para a sua tenda."
+    },
+    {
+      "number": 8,
+      "text": "Durante seis dias comam p\u00e3o sem fermento, e no s\u00e9timo dia fa\u00e7am uma assembl\u00e9ia em honra do Senhor, ao seu Deus; n\u00e3o fa\u00e7am trabalho algum."
+    },
+    {
+      "number": 9,
+      "text": "Contem sete semanas a partir da \u00e9poca em que voc\u00eas come\u00e7arem a colheita do cereal."
+    },
+    {
+      "number": 10,
+      "text": "Celebrem ent\u00e3o a festa das semanas ao Senhor, ao seu Deus, e tragam uma oferta volunt\u00e1ria conforme \u00e0s b\u00ean\u00e7\u00e3os recebidas do Senhor, do seu Deus."
+    },
+    {
+      "number": 11,
+      "text": "E alegrem-se perante o Senhor, o seu Deus, no local que ele escolher para habita\u00e7\u00e3o do seu Nome, junto com os seus filhos e as suas filhas, os seus servos e as suas servas, os levitas que vivem na sua cidade, os estrangeiros, os \u00f3rf\u00e3os e as vi\u00favas que vivem com voc\u00eas."
+    },
+    {
+      "number": 12,
+      "text": "Lembrem-se de que voc\u00eas foram escravos no Egito e obede\u00e7am fielmente a estes decretos."
+    },
+    {
+      "number": 13,
+      "text": "Celebrem tamb\u00e9m a festa das cabanas durante sete dias, depois que ajuntarem o produto da eira e do lagar."
+    },
+    {
+      "number": 14,
+      "text": "Alegrem-se nessa festa com os seus filhos e as suas filhas, os seus servos e as suas servas, os levitas, os estrangeiros, os \u00f3rf\u00e3os e as vi\u00favas que vivem na sua cidade."
+    },
+    {
+      "number": 15,
+      "text": "Durante sete dias celebrem a festa, dedicada ao Senhor, ao seu Deus, no local que o Senhor escolher. Pois o Senhor, o seu Deus, os aben\u00e7oar\u00e1 em toda a sua colheita e em todo o trabalho de suas m\u00e3os, e a sua alegria ser\u00e1 completa."
+    },
+    {
+      "number": 16,
+      "text": "Tr\u00eas vezes por ano todos os seus homens se apresentar\u00e3o ao Senhor, ao seu Deus, no local que ele escolher, por ocasi\u00e3o da festa dos p\u00e3es sem fermento, da festa das semanas e da festa das cabanas. Nenhum deles dever\u00e1 apresentar-se ao Senhor de m\u00e3os vazias:"
+    },
+    {
+      "number": 17,
+      "text": "cada um de voc\u00eas trar\u00e1 uma d\u00e1diva conforme as b\u00ean\u00e7\u00e3os recebidas do Senhor, do seu Deus."
+    },
+    {
+      "number": 18,
+      "text": "Nomeiem ju\u00edzes e oficiais para cada uma de suas tribos em todas as cidades que o Senhor, o seu Deus, lhes d\u00e1, para que eles julguem o povo com justi\u00e7a."
+    },
+    {
+      "number": 19,
+      "text": "N\u00e3o pervertam a justi\u00e7a nem mostrem parcialidade. N\u00e3o aceitem suborno, pois o suborno cega at\u00e9 os s\u00e1bios e prejudica a causa dos justos."
+    },
+    {
+      "number": 20,
+      "text": "Siga \u00fanica e exclusivamente a justi\u00e7a, para que tenham vida e tomem posse da terra que o Senhor, o seu Deus, lhes d\u00e1."
+    },
+    {
+      "number": 21,
+      "text": "N\u00e3o ergam nenhum poste sagrado al\u00e9m do altar que constru\u00edrem em honra do Senhor, do seu Deus,"
+    },
+    {
+      "number": 22,
+      "text": "e n\u00e3o levantem nenhuma coluna sagrada, pois isto \u00e9 detest\u00e1vel para o Senhor, o seu Deus."
+    }
+  ]
+}
