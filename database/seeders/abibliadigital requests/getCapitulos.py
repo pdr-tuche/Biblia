@@ -63,6 +63,11 @@ def verificar_ultimo_capitulo(livro):
     return nome_arquivo_maior_numero, maior_numero
 
 
+def maximo_de_capitulos_do_livro(livro, cap):
+    global capitulos_completos
+    capitulos_completos[livro] = cap - 1
+
+
 def capitulos_request(version):
     livros = get_livros_from_json()
 
@@ -70,6 +75,11 @@ def capitulos_request(version):
         criar_pasta_capitulo()
 
     for livro in livros:
+        global capitulos_completos
+        if livro in capitulos_completos.keys():
+            print(f'livro {livro} já completo')
+            continue
+
         if os.path.exists(os.path.join('capitulos', livro)):
             _, maior_numero = verificar_ultimo_capitulo(livro)
             if maior_numero:
@@ -83,7 +93,9 @@ def capitulos_request(version):
                 url = f"https://www.abibliadigital.com.br/api/verses/{version}/{livro}/{cap}"
                 response = requests.get(url)
                 print(response.status_code)
-                if response.status_code == 200:
+                if response.status_code == 404 and response.json()['msg'] == 'chapter not found':
+                    maximo_de_capitulos_do_livro(livro, cap)
+                elif response.status_code == 200:
                     criar_pasta_livro(livro)
                     salvar_capitulo(livro, cap, response)
                     cap += 1
@@ -108,9 +120,5 @@ def job():
 
 
 if __name__ == "__main__":
-
+    capitulos_completos = {'gn': 50, 'ex': 40, 'lv': 27, 'nm': 36}
     capitulos_request('nvi')
-    schedule.every().hour.do(job)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
