@@ -8,6 +8,9 @@ import time
 
 def get_livros_from_json():
     livros = []
+    if not os.path.exists('livros'):
+        os.makedirs('livros')
+        print('criou pasta livros')
     json_path = os.path.join('livros', 'livros.json')
 
     with open(json_path, 'r') as file:
