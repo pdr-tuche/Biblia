@@ -19,10 +19,10 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r database\seeders\abibliadigital requests\requirements.txt
+          pip install -r database\seeders\abibliadigital_requests\requirements.txt
 
       - name: Run Script
-        run: python database\seeders\abibliadigital requests\getCapitulos.py
+        run: python database\seeders\abibliadigital_requests\getCapitulos.py
 
       - name: Commit and Push Changes
         run: |
