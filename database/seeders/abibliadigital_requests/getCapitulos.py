@@ -123,5 +123,9 @@ def job():
 
 
 if __name__ == "__main__":
-    capitulos_completos = {'gn': 50, 'ex': 40, 'lv': 27, 'nm': 36}
+    capitulos_completos = {'gn': 50, 'ex': 40, 'lv': 27, 'nm': 36, 'dt': 34}
     capitulos_request('nvi')
+    schedule.every().hour.do(job)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
