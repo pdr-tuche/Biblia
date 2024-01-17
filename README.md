@@ -20,6 +20,60 @@ Este projeto foi criado para me ajudar a aprender o framework Laravel.
 
 <details>
     <summary>
+        <h2>Rodar Localmente</h2>
+    </summary>
+    
+1. clonar repositório:
+
+```bash
+git clone https://github.com/pdr-tuche/Biblia.git
+```
+
+2. dentro da pasta do repositório, instale as depedencias
+
+```bash
+composer install
+```
+
+3. Renomeie o arquivo `.env.example` para `.env` ou copie seu conteudo para um arquivo `.env`
+
+4. configure o arquivo `.env` com as informações de conexao do seu SGBD (primeiramente é necessário criar um banco de dados com o nome `biblia`)
+
+5. criar uma nova chave para a aplicação
+
+```bash
+php artisan key:generate
+```
+
+6. realizar as migrações para o banco de dados
+
+```bash
+php artisan migrate
+```
+
+7. rodar servidor
+
+```bash
+php artisan serve
+```
+
+</details>
+<details>
+    <summary>
+        <h2>Documentação da API</h2>
+    </summary>
+
+A documentação foi criada no postman.
+Voce pode conferir no [postman web](https://documenter.getpostman.com/view/22309579/2s9YsQ9AQ9), ou você pode importar o arquivo `Biblia.postman_collection.json` (esta na pasta `.postman_export_file`) no postman da sua maquina para ter acesso a documentação e as requisições.
+
+### demonstração:
+
+![demonstração](.github/docs/postman_docs.gif)
+
+</details>
+
+<details>
+    <summary>
         <h2>Comandos Úteis (CLI)</h2>
     </summary>
 
@@ -84,20 +138,6 @@ Para rodar os testes, rode o seguinte comando na pasta raiz
 ```bash
   php artisan test tests/Feature/VersiculoRoutesTest.php
 ```
-
-</details>
-
-<details>
-    <summary>
-        <h2>Documentação da API</h2>
-    </summary>
-
-A documentação foi criada no postman.
-Voce pode conferir no [postman web](https://documenter.getpostman.com/view/22309579/2s9YsQ9AQ9), ou você pode importar o arquivo `Biblia.postman_collection.json` (esta na pasta `.postman_export_file`) no postman da sua maquina para ter acesso a documentação e as requisições.
-
-### demonstração:
-
-![demonstração](.github/docs/postman_docs.gif)
 
 </details>
 
