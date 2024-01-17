@@ -8,7 +8,7 @@ Este projeto foi criado para me ajudar a aprender o framework Laravel.
 
 <details>
     <summary>
-        <h2>Aprendizados<h2>
+        <h2>Aprendizados 🤓<h2>
     </summary>
     <p>Inicialmente, aprendi a criar uma API REST entendendo os conceitos dos padrões de projetos presentes no Laravel, consequentemente em paralelo, aprendi a utilizar algumas funções de CLI que o Laravel disponibiliza para deixar o desenvolvimento mais agil.</p>
     <p>Após criação da API, dei uma pesquisada sobre as seeds, cujo propósito é popular o banco de dados. Entendi como criar e utiliza-las para fornecer dados iniciais, facilitando o desenvolvimento e os testes do sistema.</p>
@@ -20,7 +20,7 @@ Este projeto foi criado para me ajudar a aprender o framework Laravel.
 
 <details>
     <summary>
-        <h2>Rodar Localmente</h2>
+        <h2>Rodar Localmente 💻</h2>
     </summary>
     
 1. clonar repositório:
@@ -35,20 +35,26 @@ git clone https://github.com/pdr-tuche/Biblia.git
 composer install
 ```
 
-3. Renomeie o arquivo `.env.example` para `.env` ou copie seu conteudo para um arquivo `.env`
+3. copie o conteúdo do arquivo `.env.example` em um arquivo `.env`
 
-4. configure o arquivo `.env` com as informações de conexao do seu SGBD (primeiramente é necessário criar um banco de dados com o nome `biblia`)
+4. configure o arquivo `.env` com as informações de conexao do seu SGBD (linha 11 a 16)
 
-5. criar uma nova chave para a aplicação
+5. crie uma nova chave para a aplicação
 
 ```bash
 php artisan key:generate
 ```
 
-6. realizar as migrações para o banco de dados
+6. realize as migrações para o banco de dados
 
 ```bash
 php artisan migrate
+```
+
+-   se quiser popular seu banco de dados execute:
+
+```bash
+php artisan migrate:fresh --seed
 ```
 
 7. rodar servidor
@@ -60,7 +66,7 @@ php artisan serve
 </details>
 <details>
     <summary>
-        <h2>Documentação da API</h2>
+        <h2>Documentação da API 📄</h2>
     </summary>
 
 A documentação foi criada no postman.
@@ -74,7 +80,7 @@ Voce pode conferir no [postman web](https://documenter.getpostman.com/view/22309
 
 <details>
     <summary>
-        <h2>Comandos Úteis (CLI)</h2>
+        <h2>Comandos Úteis (CLI) 👾</h2>
     </summary>
 
 ### iniciar servidor:
@@ -110,7 +116,7 @@ php artisan make:seeder
 </details>
 <details>
     <summary>
-        <h2>Rodando os testes</h2>
+        <h2>Rodando os testes 🧪</h2>
     </summary>
 
 Para rodar os testes, rode o seguinte comando na pasta raiz
@@ -146,3 +152,5 @@ Para rodar os testes, rode o seguinte comando na pasta raiz
 1. 🎥 Desenvolvendo api rest laravel [Clean Code](https://youtube.com/playlist?list=PLJPZ7SmO9-qMWPnNrYOiqm9xyYDolwmoJ&si=CFOHNVwu31z35_FI)
 2. 🎥 Desenvolvendo api rest laravel [Code with Dary](https://youtube.com/playlist?list=PLFHz2csJcgk8kvwLWESQcfk1eAivQOjdN&si=0xG3ouB8zkAjyuCd)
 3. 🎥 Conteúdo de testes do [Code Experts](https://youtube.com/playlist?list=PLswa9HeoJUq9wgbiNvXgueCetJepA6ekw&si=xVg8TW8j4_8wLXZ5)
+
+4. 📃 documentação de API [a biblia digital](https://www.abibliadigital.com.br/)
