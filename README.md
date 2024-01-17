@@ -153,4 +153,4 @@ Para rodar os testes, rode o seguinte comando na pasta raiz
 2. 🎥 Desenvolvendo api rest laravel [Code with Dary](https://youtube.com/playlist?list=PLFHz2csJcgk8kvwLWESQcfk1eAivQOjdN&si=0xG3ouB8zkAjyuCd)
 3. 🎥 Conteúdo de testes do [Code Experts](https://youtube.com/playlist?list=PLswa9HeoJUq9wgbiNvXgueCetJepA6ekw&si=xVg8TW8j4_8wLXZ5)
 
-4. 📃 documentação de API [a biblia digital](https://www.abibliadigital.com.br/)
+4. 📃 para criação das seeds utilizei a API d[a biblia digital](https://www.abibliadigital.com.br/)
