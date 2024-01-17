@@ -1,0 +1,2607 @@
+{
+	"info": {
+		"_postman_id": "36f213b3-dfff-48f4-abc0-1542315c9171",
+		"name": "Biblia",
+		"description": "Api REST =)\n\nrepositório: [github.com/pdr-tuche/Biblia](https://github.com/pdr-tuche/Biblia)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28314791"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "accept",
+								"value": "aplication/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"meuemail@example.com\",\r\n    \"password\": \"senha\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "accept",
+										"value": "aplication/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"meuemail@example.com\",\r\n    \"password\": \"senha\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/api/login",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"login"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 17 Jan 2024 00:01:19 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"user\": {\n        \"id\": 4,\n        \"name\": \"Peo\",\n        \"email\": \"meuemail@example.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-01-17T00:00:54.000000Z\",\n        \"updated_at\": \"2024-01-17T00:00:54.000000Z\"\n    },\n    \"token\": \"2|vWWxAnUbKJkE67Hh1lBdMouHZ7U4G1w1E3Q7tunec41c1dfa\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Create User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Peo\",\r\n    \"email\": \"meuemail@example.com\",\r\n    \"password\": \"senha\",\r\n    \"password_confirmation\": \"senha\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/register",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Peo\",\r\n    \"email\": \"meuemail@example.com\",\r\n    \"password\": \"senha\",\r\n    \"password_confirmation\": \"senha\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/api/register",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 17 Jan 2024 00:00:54 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"user\": {\n        \"name\": \"Peo\",\n        \"email\": \"meuemail@example.com\",\n        \"updated_at\": \"2024-01-17T00:00:54.000000Z\",\n        \"created_at\": \"2024-01-17T00:00:54.000000Z\",\n        \"id\": 4\n    },\n    \"token\": \"1|9WbyzxRDLR12irpPmvhCsMGoloGRhe7QfHOf1cKqe8968376\"\n}"
+						}
+					]
+				}
+			],
+			"description": "rotas de criação de usuarios e login"
+		},
+		{
+			"name": "Testamento",
+			"item": [
+				{
+					"name": "Get Testamento",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/testamento/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"testamento",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Testamento",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/testamento/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"testamento",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:50:14 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"nome\": \"Teste\",\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-15T16:25:04.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"nome\": \"Novo Testamento\",\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get Testamento By Id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/testamento/:id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"testamento",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Testamento By Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{base_url}}/api/testamento/:id",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"testamento",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:53:03 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"nome\": \"Teste\",\n    \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n    \"updated_at\": \"2024-01-15T16:25:04.000000Z\",\n    \"livros\": [\n        {\n            \"id\": 1,\n            \"posicao\": 1,\n            \"nome\": \"Genesis\",\n            \"abreviacao\": \"Gn\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-16T13:51:31.000000Z\"\n        },\n        {\n            \"id\": 2,\n            \"posicao\": 2,\n            \"nome\": \"Êxodo\",\n            \"abreviacao\": \"Ex\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 3,\n            \"posicao\": 3,\n            \"nome\": \"Levítico\",\n            \"abreviacao\": \"Lv\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 4,\n            \"posicao\": 4,\n            \"nome\": \"Números\",\n            \"abreviacao\": \"Nm\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 5,\n            \"posicao\": 5,\n            \"nome\": \"Deuteronômio\",\n            \"abreviacao\": \"Dt\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 6,\n            \"posicao\": 6,\n            \"nome\": \"Josué\",\n            \"abreviacao\": \"Js\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 7,\n            \"posicao\": 7,\n            \"nome\": \"Juízes\",\n            \"abreviacao\": \"Jz\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 8,\n            \"posicao\": 8,\n            \"nome\": \"Rute\",\n            \"abreviacao\": \"Rt\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 9,\n            \"posicao\": 9,\n            \"nome\": \"1 Samuel\",\n            \"abreviacao\": \"1Sm\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n        },\n        {\n            \"id\": 10,\n            \"posicao\": 10,\n            \"nome\": \"2 Samuel\",\n            \"abreviacao\": \"2Sm\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 11,\n            \"posicao\": 11,\n            \"nome\": \"1 Reis\",\n            \"abreviacao\": \"1Rs\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 12,\n            \"posicao\": 12,\n            \"nome\": \"2 Reis\",\n            \"abreviacao\": \"2Rs\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 13,\n            \"posicao\": 13,\n            \"nome\": \"1 Crônicas\",\n            \"abreviacao\": \"1Cr\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 14,\n            \"posicao\": 14,\n            \"nome\": \"2 Crônicas\",\n            \"abreviacao\": \"2Cr\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 15,\n            \"posicao\": 15,\n            \"nome\": \"Esdras\",\n            \"abreviacao\": \"Ed\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 16,\n            \"posicao\": 16,\n            \"nome\": \"Neemias\",\n            \"abreviacao\": \"Ne\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 17,\n            \"posicao\": 17,\n            \"nome\": \"Tobias\",\n            \"abreviacao\": \"Tb\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 18,\n            \"posicao\": 18,\n            \"nome\": \"Judite\",\n            \"abreviacao\": \"Jt\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 19,\n            \"posicao\": 19,\n            \"nome\": \"Ester\",\n            \"abreviacao\": \"Et\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 20,\n            \"posicao\": 20,\n            \"nome\": \"1 Macabeus\",\n            \"abreviacao\": \"1Mc\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 21,\n            \"posicao\": 21,\n            \"nome\": \"2 Macabeus\",\n            \"abreviacao\": \"2Mc\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 22,\n            \"posicao\": 22,\n            \"nome\": \"Jó\",\n            \"abreviacao\": \"Jó\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 23,\n            \"posicao\": 23,\n            \"nome\": \"Salmos\",\n            \"abreviacao\": \"Sl\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 24,\n            \"posicao\": 24,\n            \"nome\": \"Provérbios\",\n            \"abreviacao\": \"Pv\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 25,\n            \"posicao\": 25,\n            \"nome\": \"Eclesiastes\",\n            \"abreviacao\": \"Ec\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 26,\n            \"posicao\": 26,\n            \"nome\": \"Cântico dos Cânticos\",\n            \"abreviacao\": \"Ct\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 27,\n            \"posicao\": 27,\n            \"nome\": \"Sabedoria\",\n            \"abreviacao\": \"Sb\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 28,\n            \"posicao\": 28,\n            \"nome\": \"Eclesiástico\",\n            \"abreviacao\": \"Eclo\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 29,\n            \"posicao\": 29,\n            \"nome\": \"Isaías\",\n            \"abreviacao\": \"Is\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 30,\n            \"posicao\": 30,\n            \"nome\": \"Jeremias\",\n            \"abreviacao\": \"Jr\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 31,\n            \"posicao\": 31,\n            \"nome\": \"Lamentações\",\n            \"abreviacao\": \"Lm\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 32,\n            \"posicao\": 32,\n            \"nome\": \"Baruc\",\n            \"abreviacao\": \"Br\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 33,\n            \"posicao\": 33,\n            \"nome\": \"Ezequiel\",\n            \"abreviacao\": \"Ez\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 34,\n            \"posicao\": 34,\n            \"nome\": \"Daniel\",\n            \"abreviacao\": \"Dn\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 35,\n            \"posicao\": 35,\n            \"nome\": \"Oséias\",\n            \"abreviacao\": \"Os\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 36,\n            \"posicao\": 36,\n            \"nome\": \"Joel\",\n            \"abreviacao\": \"Jl\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 37,\n            \"posicao\": 37,\n            \"nome\": \"Amós\",\n            \"abreviacao\": \"Am\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 38,\n            \"posicao\": 38,\n            \"nome\": \"Abdias\",\n            \"abreviacao\": \"Ab\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 39,\n            \"posicao\": 39,\n            \"nome\": \"Jonas\",\n            \"abreviacao\": \"Jn\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 40,\n            \"posicao\": 40,\n            \"nome\": \"Miquéias\",\n            \"abreviacao\": \"Mq\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 41,\n            \"posicao\": 41,\n            \"nome\": \"Naum\",\n            \"abreviacao\": \"Na\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 42,\n            \"posicao\": 42,\n            \"nome\": \"Habacuque\",\n            \"abreviacao\": \"Hc\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 43,\n            \"posicao\": 43,\n            \"nome\": \"Sofonias\",\n            \"abreviacao\": \"Sf\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 44,\n            \"posicao\": 44,\n            \"nome\": \"Ageu\",\n            \"abreviacao\": \"Ag\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 45,\n            \"posicao\": 45,\n            \"nome\": \"Zacarias\",\n            \"abreviacao\": \"Zc\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        },\n        {\n            \"id\": 46,\n            \"posicao\": 46,\n            \"nome\": \"Malaquias\",\n            \"abreviacao\": \"Ml\",\n            \"testamento_id\": 1,\n            \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n            \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Create Testamento",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Teste Testamento\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/testamento",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"testamento"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Testamento",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nome\": \"Teste Testamento\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/testamento",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"testamento"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:53:27 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"nome\": \"Teste Testamento\",\n    \"updated_at\": \"2024-01-16T23:53:27.000000Z\",\n    \"created_at\": \"2024-01-16T23:53:27.000000Z\",\n    \"id\": 4\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Testamento",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"alterando nome testamento\"\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/testamento/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"testamento",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Testamento",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nome\": \"alterando nome testamento\"\r\n}"
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/testamento/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"testamento",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "4"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:53:50 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 4,\n    \"nome\": \"alterando nome testamento\",\n    \"created_at\": \"2024-01-16T23:53:27.000000Z\",\n    \"updated_at\": \"2024-01-16T23:53:50.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Testamento",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/testamento/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"testamento",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Testamento",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/testamento/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"testamento",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "4"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:54:10 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"testamento removido com sucesso\"\n}"
+						}
+					]
+				}
+			],
+			"description": "Create, Read, Update, Delete Testamento",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Livro",
+			"item": [
+				{
+					"name": "Create Livro",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "Accept",
+								"value": "Application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Genesis\",\r\n    \"posicao\": 1,\r\n    \"abreviacao\": \"Gn\",\r\n    \"testamento_id\": 1\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/livro",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"livro"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Livro",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "Accept",
+										"value": "Application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nome\": \"Genesis\",\r\n    \"posicao\": 1,\r\n    \"abreviacao\": \"Gn\",\r\n    \"testamento_id\": 1\r\n}"
+								},
+								"url": {
+									"raw": "{{base_url}}/api/livro",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"livro"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:54:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"nome\": \"Genesis\",\n    \"posicao\": 1,\n    \"abreviacao\": \"Gn\",\n    \"testamento_id\": 1,\n    \"updated_at\": \"2024-01-16T23:54:52.000000Z\",\n    \"created_at\": \"2024-01-16T23:54:52.000000Z\",\n    \"id\": 75\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Livro",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/livro/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"livro",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Livro",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/livro/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"livro",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:55:08 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"posicao\": 1,\n        \"nome\": \"Genesis\",\n        \"abreviacao\": \"Gn\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-16T13:51:31.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"posicao\": 2,\n        \"nome\": \"Êxodo\",\n        \"abreviacao\": \"Ex\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 3,\n        \"posicao\": 3,\n        \"nome\": \"Levítico\",\n        \"abreviacao\": \"Lv\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 4,\n        \"posicao\": 4,\n        \"nome\": \"Números\",\n        \"abreviacao\": \"Nm\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 5,\n        \"posicao\": 5,\n        \"nome\": \"Deuteronômio\",\n        \"abreviacao\": \"Dt\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 6,\n        \"posicao\": 6,\n        \"nome\": \"Josué\",\n        \"abreviacao\": \"Js\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 7,\n        \"posicao\": 7,\n        \"nome\": \"Juízes\",\n        \"abreviacao\": \"Jz\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 8,\n        \"posicao\": 8,\n        \"nome\": \"Rute\",\n        \"abreviacao\": \"Rt\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 9,\n        \"posicao\": 9,\n        \"nome\": \"1 Samuel\",\n        \"abreviacao\": \"1Sm\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:35.000000Z\"\n    },\n    {\n        \"id\": 10,\n        \"posicao\": 10,\n        \"nome\": \"2 Samuel\",\n        \"abreviacao\": \"2Sm\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 11,\n        \"posicao\": 11,\n        \"nome\": \"1 Reis\",\n        \"abreviacao\": \"1Rs\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 12,\n        \"posicao\": 12,\n        \"nome\": \"2 Reis\",\n        \"abreviacao\": \"2Rs\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 13,\n        \"posicao\": 13,\n        \"nome\": \"1 Crônicas\",\n        \"abreviacao\": \"1Cr\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 14,\n        \"posicao\": 14,\n        \"nome\": \"2 Crônicas\",\n        \"abreviacao\": \"2Cr\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 15,\n        \"posicao\": 15,\n        \"nome\": \"Esdras\",\n        \"abreviacao\": \"Ed\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 16,\n        \"posicao\": 16,\n        \"nome\": \"Neemias\",\n        \"abreviacao\": \"Ne\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 17,\n        \"posicao\": 17,\n        \"nome\": \"Tobias\",\n        \"abreviacao\": \"Tb\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 18,\n        \"posicao\": 18,\n        \"nome\": \"Judite\",\n        \"abreviacao\": \"Jt\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 19,\n        \"posicao\": 19,\n        \"nome\": \"Ester\",\n        \"abreviacao\": \"Et\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 20,\n        \"posicao\": 20,\n        \"nome\": \"1 Macabeus\",\n        \"abreviacao\": \"1Mc\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 21,\n        \"posicao\": 21,\n        \"nome\": \"2 Macabeus\",\n        \"abreviacao\": \"2Mc\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 22,\n        \"posicao\": 22,\n        \"nome\": \"Jó\",\n        \"abreviacao\": \"Jó\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 23,\n        \"posicao\": 23,\n        \"nome\": \"Salmos\",\n        \"abreviacao\": \"Sl\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 24,\n        \"posicao\": 24,\n        \"nome\": \"Provérbios\",\n        \"abreviacao\": \"Pv\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 25,\n        \"posicao\": 25,\n        \"nome\": \"Eclesiastes\",\n        \"abreviacao\": \"Ec\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 26,\n        \"posicao\": 26,\n        \"nome\": \"Cântico dos Cânticos\",\n        \"abreviacao\": \"Ct\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 27,\n        \"posicao\": 27,\n        \"nome\": \"Sabedoria\",\n        \"abreviacao\": \"Sb\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 28,\n        \"posicao\": 28,\n        \"nome\": \"Eclesiástico\",\n        \"abreviacao\": \"Eclo\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 29,\n        \"posicao\": 29,\n        \"nome\": \"Isaías\",\n        \"abreviacao\": \"Is\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 30,\n        \"posicao\": 30,\n        \"nome\": \"Jeremias\",\n        \"abreviacao\": \"Jr\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 31,\n        \"posicao\": 31,\n        \"nome\": \"Lamentações\",\n        \"abreviacao\": \"Lm\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 32,\n        \"posicao\": 32,\n        \"nome\": \"Baruc\",\n        \"abreviacao\": \"Br\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 33,\n        \"posicao\": 33,\n        \"nome\": \"Ezequiel\",\n        \"abreviacao\": \"Ez\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 34,\n        \"posicao\": 34,\n        \"nome\": \"Daniel\",\n        \"abreviacao\": \"Dn\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 35,\n        \"posicao\": 35,\n        \"nome\": \"Oséias\",\n        \"abreviacao\": \"Os\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 36,\n        \"posicao\": 36,\n        \"nome\": \"Joel\",\n        \"abreviacao\": \"Jl\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 37,\n        \"posicao\": 37,\n        \"nome\": \"Amós\",\n        \"abreviacao\": \"Am\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 38,\n        \"posicao\": 38,\n        \"nome\": \"Abdias\",\n        \"abreviacao\": \"Ab\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 39,\n        \"posicao\": 39,\n        \"nome\": \"Jonas\",\n        \"abreviacao\": \"Jn\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 40,\n        \"posicao\": 40,\n        \"nome\": \"Miquéias\",\n        \"abreviacao\": \"Mq\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 41,\n        \"posicao\": 41,\n        \"nome\": \"Naum\",\n        \"abreviacao\": \"Na\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 42,\n        \"posicao\": 42,\n        \"nome\": \"Habacuque\",\n        \"abreviacao\": \"Hc\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 43,\n        \"posicao\": 43,\n        \"nome\": \"Sofonias\",\n        \"abreviacao\": \"Sf\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 44,\n        \"posicao\": 44,\n        \"nome\": \"Ageu\",\n        \"abreviacao\": \"Ag\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 45,\n        \"posicao\": 45,\n        \"nome\": \"Zacarias\",\n        \"abreviacao\": \"Zc\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 46,\n        \"posicao\": 46,\n        \"nome\": \"Malaquias\",\n        \"abreviacao\": \"Ml\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 47,\n        \"posicao\": 47,\n        \"nome\": \"Mateus\",\n        \"abreviacao\": \"Mt\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 48,\n        \"posicao\": 48,\n        \"nome\": \"Marcos\",\n        \"abreviacao\": \"Mc\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 49,\n        \"posicao\": 49,\n        \"nome\": \"Lucas\",\n        \"abreviacao\": \"Lc\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 50,\n        \"posicao\": 50,\n        \"nome\": \"João\",\n        \"abreviacao\": \"Jo\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 51,\n        \"posicao\": 51,\n        \"nome\": \"Atos dos Apóstolos\",\n        \"abreviacao\": \"At\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 52,\n        \"posicao\": 52,\n        \"nome\": \"Romanos\",\n        \"abreviacao\": \"Rm\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 53,\n        \"posicao\": 53,\n        \"nome\": \"1 Coríntios\",\n        \"abreviacao\": \"1Cor\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 54,\n        \"posicao\": 54,\n        \"nome\": \"2 Coríntios\",\n        \"abreviacao\": \"2Cor\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 55,\n        \"posicao\": 55,\n        \"nome\": \"Gálatas\",\n        \"abreviacao\": \"Gl\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 56,\n        \"posicao\": 56,\n        \"nome\": \"Efésios\",\n        \"abreviacao\": \"Ef\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 57,\n        \"posicao\": 57,\n        \"nome\": \"Filipenses\",\n        \"abreviacao\": \"Fl\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 58,\n        \"posicao\": 58,\n        \"nome\": \"Colossenses\",\n        \"abreviacao\": \"Cl\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 59,\n        \"posicao\": 59,\n        \"nome\": \"1 Tessalonicenses\",\n        \"abreviacao\": \"1Ts\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 60,\n        \"posicao\": 60,\n        \"nome\": \"2 Tessalonicenses\",\n        \"abreviacao\": \"2Ts\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 61,\n        \"posicao\": 61,\n        \"nome\": \"1 Timóteo\",\n        \"abreviacao\": \"1Tm\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 62,\n        \"posicao\": 62,\n        \"nome\": \"2 Timóteo\",\n        \"abreviacao\": \"2Tm\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 63,\n        \"posicao\": 63,\n        \"nome\": \"Tito\",\n        \"abreviacao\": \"Tt\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 64,\n        \"posicao\": 64,\n        \"nome\": \"Filemon\",\n        \"abreviacao\": \"Fm\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 65,\n        \"posicao\": 65,\n        \"nome\": \"1Pedro\",\n        \"abreviacao\": \"1Pd\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 66,\n        \"posicao\": 66,\n        \"nome\": \"2Pedro\",\n        \"abreviacao\": \"2Pd\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 67,\n        \"posicao\": 67,\n        \"nome\": \"1João\",\n        \"abreviacao\": \"1Jo\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 68,\n        \"posicao\": 68,\n        \"nome\": \"2João\",\n        \"abreviacao\": \"2Jo\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 69,\n        \"posicao\": 69,\n        \"nome\": \"3João\",\n        \"abreviacao\": \"3Jo\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 70,\n        \"posicao\": 70,\n        \"nome\": \"Hebreus\",\n        \"abreviacao\": \"Hb\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 71,\n        \"posicao\": 71,\n        \"nome\": \"Tiago\",\n        \"abreviacao\": \"Tg\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 72,\n        \"posicao\": 72,\n        \"nome\": \"Judas\",\n        \"abreviacao\": \"Jd\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 73,\n        \"posicao\": 73,\n        \"nome\": \"Apocalipse\",\n        \"abreviacao\": \"Ap\",\n        \"testamento_id\": 2,\n        \"created_at\": \"2024-01-04T17:13:36.000000Z\",\n        \"updated_at\": \"2024-01-04T17:13:36.000000Z\"\n    },\n    {\n        \"id\": 75,\n        \"posicao\": 1,\n        \"nome\": \"Genesis\",\n        \"abreviacao\": \"Gn\",\n        \"testamento_id\": 1,\n        \"created_at\": \"2024-01-16T23:54:52.000000Z\",\n        \"updated_at\": \"2024-01-16T23:54:52.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get Livro By Id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/livro/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"livro",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Livro By Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/livro/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"livro",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:55:21 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 3,\n    \"posicao\": 3,\n    \"nome\": \"Levítico\",\n    \"abreviacao\": \"Lv\",\n    \"testamento_id\": 1,\n    \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n    \"updated_at\": \"2024-01-04T17:13:35.000000Z\",\n    \"testamento\": {\n        \"id\": 1,\n        \"nome\": \"Teste\",\n        \"created_at\": \"2024-01-04T17:13:35.000000Z\",\n        \"updated_at\": \"2024-01-15T16:25:04.000000Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Livro",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "Accept",
+								"value": "Application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Genesis\",\r\n    \"posicao\": 1,\r\n    \"abreviacao\": \"Gen\",\r\n    \"testamento_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/livro/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"livro",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "75"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Livro",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "Accept",
+										"value": "Application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nome\": \"Genesis\",\r\n    \"posicao\": 1,\r\n    \"abreviacao\": \"Gen\",\r\n    \"testamento_id\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/livro/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"livro",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "75"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:55:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 75,\n    \"posicao\": 1,\n    \"nome\": \"Genesis\",\n    \"abreviacao\": \"Gen\",\n    \"testamento_id\": 1,\n    \"created_at\": \"2024-01-16T23:54:52.000000Z\",\n    \"updated_at\": \"2024-01-16T23:55:52.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Livro",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/livro/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"livro",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "75"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Livro",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/livro/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"livro",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "75"
+										}
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:56:07 GMT"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			],
+			"description": "Create, Read, Update, Delete Livro",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Versiculos",
+			"item": [
+				{
+					"name": "Create Versiculo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "Accept",
+								"value": "Application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"capitulo\": 1,\r\n    \"versiculo\": 2,\r\n    \"texto\": \"E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus se movia sobre a face das águas.\",\r\n    \"livro_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/versiculo/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"versiculo",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Versiculo",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "Accept",
+										"value": "Application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"capitulo\": 1,\r\n    \"versiculo\": 2,\r\n    \"texto\": \"E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus se movia sobre a face das águas.\",\r\n    \"livro_id\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/api/versiculo/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"versiculo",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:57:00 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"capitulo\": 1,\n    \"versiculo\": 2,\n    \"texto\": \"E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus se movia sobre a face das águas.\",\n    \"livro_id\": 1,\n    \"updated_at\": \"2024-01-16T23:57:00.000000Z\",\n    \"created_at\": \"2024-01-16T23:57:00.000000Z\",\n    \"id\": 13\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Versiculo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "Accept",
+								"value": "Application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"capitulo\": 1,\r\n    \"versiculo\": 2,\r\n    \"texto\": \"E a terra era sem forma e vazia; e havia trevas sobre a face do abismo\",\r\n    \"livro_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/versiculo/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"versiculo",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "13"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Versiculo",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "Accept",
+										"value": "Application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"capitulo\": 1,\r\n    \"versiculo\": 2,\r\n    \"texto\": \"E a terra era sem forma e vazia; e havia trevas sobre a face do abismo\",\r\n    \"livro_id\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/versiculo/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"versiculo",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "13"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:57:41 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 13,\n    \"capitulo\": 1,\n    \"versiculo\": 2,\n    \"texto\": \"E a terra era sem forma e vazia; e havia trevas sobre a face do abismo\",\n    \"livro_id\": 1,\n    \"created_at\": \"2024-01-16T23:57:00.000000Z\",\n    \"updated_at\": \"2024-01-16T23:57:41.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Versiculo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"value": ""
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/versiculo/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"versiculo",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Versiculo",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "",
+										"value": ""
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/versiculo/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"versiculo",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:56:30 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"capitulo\": 1,\n        \"versiculo\": 1,\n        \"texto\": \"No princípio, Deus criou os céus e a terra.\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 2,\n        \"capitulo\": 1,\n        \"versiculo\": 2,\n        \"texto\": \"A terra era sem forma e vazia. Trevas cobriam a face do abismo, e o Espírito de Deus se movia sobre a face das águas.\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 3,\n        \"capitulo\": 1,\n        \"versiculo\": 3,\n        \"texto\": \"Disse Deus: \\\"Haja luz\\\", e houve luz.\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 4,\n        \"capitulo\": 1,\n        \"versiculo\": 4,\n        \"texto\": \"Deus viu que a luz era boa, e separou a luz das trevas.\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 5,\n        \"capitulo\": 1,\n        \"versiculo\": 5,\n        \"texto\": \"E à luz Deus chamou \\\"dia\\\", e às trevas chamou \\\"noite\\\". Passaram-se a tarde e a manhã; esse foi o primeiro dia.\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 6,\n        \"capitulo\": 1,\n        \"versiculo\": 6,\n        \"texto\": \"E disse Deus: \\\"Haja entre as águas um firmamento que separe águas de águas\\\".\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 7,\n        \"capitulo\": 1,\n        \"versiculo\": 7,\n        \"texto\": \"Fez, pois, Deus o firmamento e separou as águas que ficaram abaixo do firmamento das que ficaram por cima. E assim foi.\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 8,\n        \"capitulo\": 1,\n        \"versiculo\": 8,\n        \"texto\": \"Ao firmamento Deus chamou \\\"céu\\\". Passaram-se a tarde e a manhã; esse foi o segundo dia.\",\n        \"livro_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 9,\n        \"capitulo\": 23,\n        \"versiculo\": 4,\n        \"texto\": \"Mesmo quando eu andar por um vale de trevas e morte, não temerei perigo algum, pois tu estás comigo; a tua vara e o teu cajado me protegem.\",\n        \"livro_id\": 23,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 10,\n        \"capitulo\": 125,\n        \"versiculo\": 1,\n        \"texto\": \"Os que confiam no Senhor são como o monte Sião, que não se pode abalar, mas permanece para sempre.\",\n        \"livro_id\": 23,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 11,\n        \"capitulo\": 5,\n        \"versiculo\": 7,\n        \"texto\": \"Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.\",\n        \"livro_id\": 65,\n        \"created_at\": null,\n        \"updated_at\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get Versiculo By Id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							},
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"value": ""
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/versiculo/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"versiculo",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Versiculo By Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									},
+									{
+										"key": "accept",
+										"value": "application/json"
+									},
+									{
+										"key": "",
+										"value": ""
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/versiculo/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"versiculo",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:56:43 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"capitulo\": 1,\n    \"versiculo\": 1,\n    \"texto\": \"No princípio, Deus criou os céus e a terra.\",\n    \"livro_id\": 1,\n    \"created_at\": null,\n    \"updated_at\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Versiculo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"followRedirects": true,
+						"disableUrlEncoding": false,
+						"disableCookies": false
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/2023.5.8"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/versiculo/:id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"versiculo",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "13"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Versiculo",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "User-Agent",
+										"value": "insomnia/2023.5.8"
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/versiculo/:id",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"versiculo",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "13"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Jan 2024 23:57:59 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"versiculo deletado\"\n}"
+						}
+					]
+				}
+			],
+			"description": "Create, Read, Update, Delete Versiculo",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "1|a1CDGhzPkeQTd3WlQAYWFLByfuYWDLjbR5s1JsrR51831768",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://127.0.0.1:8000"
+		}
+	]
+}
