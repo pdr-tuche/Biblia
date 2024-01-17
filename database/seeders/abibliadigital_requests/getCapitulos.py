@@ -2,8 +2,6 @@ import requests
 import json
 import os
 import re
-import schedule
-import time
 
 
 def get_livros_from_json():
@@ -69,6 +67,8 @@ def verificar_ultimo_capitulo(livro):
 def maximo_de_capitulos_do_livro(livro, cap):
     global capitulos_completos
     capitulos_completos[livro] = cap - 1
+    with open('capitulos_completos.json', 'w') as file:
+        json.dump(capitulos_completos, file, indent=2)
 
 
 def capitulos_request(version):
@@ -108,24 +108,8 @@ def capitulos_request(version):
                 print(f"Erro na requisição: {e}")
 
 
-def job():
-    print("Executando capitulos_request...")
-    capitulos_request('nvi')
-
-    livros = get_livros_from_json()
-    pastas_criadas = [livro for livro in livros if os.path.exists(
-        os.path.join('capitulos', livro))]
-
-    if len(pastas_criadas) == len(livros):
-        print("todas pastas criadas")
-        schedule.clear()
-        exit()
-
-
 if __name__ == "__main__":
-    capitulos_completos = {'gn': 50, 'ex': 40, 'lv': 27, 'nm': 36, 'dt': 34}
+    capitulos_completos = {}
+    with open('capitulos_completos.json', 'r') as file:
+        capitulos_completos = json.load(file)
     capitulos_request('nvi')
-    schedule.every().hour.do(job)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
