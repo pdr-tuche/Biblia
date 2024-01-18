@@ -1,0 +1,58 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 141,
+    "verses": 10
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Clamo a ti, Senhor; vem depressa! Escuta a minha voz quando clamo a ti."
+    },
+    {
+      "number": 2,
+      "text": "Seja a minha ora\u00e7\u00e3o como incenso diante de ti, e o levantar das minhas m\u00e3os, como a oferta da tarde."
+    },
+    {
+      "number": 3,
+      "text": "Coloca, Senhor, uma guarda \u00e0 minha boca; vigia a porta de meus l\u00e1bios."
+    },
+    {
+      "number": 4,
+      "text": "N\u00e3o permitas que o meu cora\u00e7\u00e3o se volte para o mal, nem que eu me envolva em pr\u00e1ticas perversas com os malfeitores. Que eu nunca participe dos seus banquetes!"
+    },
+    {
+      "number": 5,
+      "text": "Fira-me o justo com amor leal e me repreenda, mas n\u00e3o perfume a minha cabe\u00e7a o \u00f3leo do \u00edmpio, pois a minha ora\u00e7\u00e3o \u00e9 contra as pr\u00e1ticas dos malfeitores."
+    },
+    {
+      "number": 6,
+      "text": "Quando eles ca\u00edrem nas m\u00e3os da Rocha, o juiz deles, ouvir\u00e3o as minhas palavras com apre\u00e7o."
+    },
+    {
+      "number": 7,
+      "text": "Como a terra \u00e9 arada e fendida, assim foram espalhados os seus ossos \u00e0 entrada da sepultura."
+    },
+    {
+      "number": 8,
+      "text": "Mas os meus olhos est\u00e3o fixos em ti, \u00f3 Soberano Senhor; em ti me refugio; n\u00e3o me entregues \u00e0 morte."
+    },
+    {
+      "number": 9,
+      "text": "Guarda-me das armadilhas que prepararam contra mim, das ciladas dos que praticam o mal."
+    },
+    {
+      "number": 10,
+      "text": "Caiam os \u00edmpios em sua pr\u00f3pria rede, enquanto eu escapo ileso."
+    }
+  ]
+}

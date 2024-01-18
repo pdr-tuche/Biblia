@@ -1,0 +1,54 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 8,
+    "verses": 9
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Senhor, Senhor nosso, como \u00e9 majestoso o teu nome em toda a terra! Tu, cuja gl\u00f3ria \u00e9 cantada nos c\u00e9us."
+    },
+    {
+      "number": 2,
+      "text": "Dos l\u00e1bios das crian\u00e7as e dos rec\u00e9m-nascidos firmaste o teu nome como fortaleza, por causa dos teus advers\u00e1rios, para silenciar o inimigo que busca vingan\u00e7a."
+    },
+    {
+      "number": 3,
+      "text": "Quando contemplo os teus c\u00e9us, obra dos teus dedos, a lua e as estrelas que ali firmaste,"
+    },
+    {
+      "number": 4,
+      "text": "pergunto: Que \u00e9 o homem, para que com ele te importes? E o filho do homem, para que com ele te preocupes?"
+    },
+    {
+      "number": 5,
+      "text": "Tu o fizeste um pouco menor do que os seres celestiais e o coroaste de gl\u00f3ria e de honra."
+    },
+    {
+      "number": 6,
+      "text": "Tu o fizeste dominar sobre as obras das tuas m\u00e3os; sob os seus p\u00e9s tudo puseste:"
+    },
+    {
+      "number": 7,
+      "text": "Todos os rebanhos e manadas, e at\u00e9 os animais selvagens,"
+    },
+    {
+      "number": 8,
+      "text": "as aves do c\u00e9u, os peixes do mar e tudo o que percorre as veredas dos mares."
+    },
+    {
+      "number": 9,
+      "text": "Senhor, Senhor nosso, como \u00e9 majestoso o teu nome em toda a terra!"
+    }
+  ]
+}

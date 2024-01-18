@@ -1,0 +1,54 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 113,
+    "verses": 9
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Aleluia! Louvem, \u00f3 servos do Senhor, louvem o nome do Senhor!"
+    },
+    {
+      "number": 2,
+      "text": "Seja bendito o nome do Senhor, desde agora e para sempre!"
+    },
+    {
+      "number": 3,
+      "text": "Do nascente ao poente, seja louvado o nome do Senhor!"
+    },
+    {
+      "number": 4,
+      "text": "O Senhor est\u00e1 exaltado acima de todas as na\u00e7\u00f5es; e acima dos c\u00e9us est\u00e1 a sua gl\u00f3ria."
+    },
+    {
+      "number": 5,
+      "text": "Quem \u00e9 como o Senhor, o nosso Deus, que reina em seu trono nas alturas,"
+    },
+    {
+      "number": 6,
+      "text": "mas se inclina para contemplar o que acontece nos c\u00e9us e na terra?"
+    },
+    {
+      "number": 7,
+      "text": "Ele levanta do p\u00f3 o necessitado e ergue do lixo o pobre,"
+    },
+    {
+      "number": 8,
+      "text": "para faz\u00ea-los sentar-se com pr\u00edncipes, com os pr\u00edncipes do seu povo."
+    },
+    {
+      "number": 9,
+      "text": "D\u00e1 um lar \u00e0 est\u00e9ril, e dela faz uma feliz m\u00e3e de filhos. Aleluia!"
+    }
+  ]
+}

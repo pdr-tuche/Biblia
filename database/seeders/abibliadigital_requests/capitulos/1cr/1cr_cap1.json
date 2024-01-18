@@ -1,0 +1,234 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "1cr",
+      "en": "1ch"
+    },
+    "name": "1\u00ba Cr\u00f4nicas",
+    "author": "Esdras",
+    "group": "Hist\u00f3ricos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 1,
+    "verses": 54
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ad\u00e3o, Sete, Enos,"
+    },
+    {
+      "number": 2,
+      "text": "Cain\u00e3, Malaleel, Jarede,"
+    },
+    {
+      "number": 3,
+      "text": "Enoque, Matusal\u00e9m, Lameque, No\u00e9."
+    },
+    {
+      "number": 4,
+      "text": "Estes foram os filhos de No\u00e9: Sem, Cam e Jaf\u00e9."
+    },
+    {
+      "number": 5,
+      "text": "Estes foram os filhos de Jaf\u00e9: G\u00f4mer, Magogue, Madai, Jav\u00e3, Tubal, Meseque e Tir\u00e1s."
+    },
+    {
+      "number": 6,
+      "text": "Estes foram os filhos de G\u00f4mer: Asquenaz, Rifate e Togarma."
+    },
+    {
+      "number": 7,
+      "text": "Estes foram os filhos de Jav\u00e3: Elis\u00e1, T\u00e1rsis, Quitim e Rodanim."
+    },
+    {
+      "number": 8,
+      "text": "Estes foram os filhos de Cam: Cuxe, Mizraim, Fute e Cana\u00e3."
+    },
+    {
+      "number": 9,
+      "text": "Estes foram os filhos de Cuxe: Seb\u00e1, Havil\u00e1, Sabt\u00e1, Raam\u00e1 e Sabtec\u00e1. Estes foram os filhos de Raam\u00e1: Sab\u00e1 e Ded\u00e3."
+    },
+    {
+      "number": 10,
+      "text": "Cuxe gerou Ninrode, o primeiro homem poderoso na terra."
+    },
+    {
+      "number": 11,
+      "text": "Mizraim gerou os luditas, os anamitas, os leabitas, os naftu\u00edtas,"
+    },
+    {
+      "number": 12,
+      "text": "os patrusitas, os caslu\u00edtas, dos quais se originaram os filisteus, e os caftoritas."
+    },
+    {
+      "number": 13,
+      "text": "Cana\u00e3 gerou Sidom, seu filho mais velho, e Hete,"
+    },
+    {
+      "number": 14,
+      "text": "como tamb\u00e9m os jebuseus, os amorreus, os girgaseus,"
+    },
+    {
+      "number": 15,
+      "text": "os heveus, os arqueus, os sineus,"
+    },
+    {
+      "number": 16,
+      "text": "os arvadeus, os zemareus e os hamateus."
+    },
+    {
+      "number": 17,
+      "text": "Estes foram os filhos de Sem: El\u00e3o, Assur, Arfaxade, Lude e Ar\u00e3. Estes foram os filhos de Ar\u00e3: Uz, Hul, G\u00e9ter e Meseque."
+    },
+    {
+      "number": 18,
+      "text": "Arfaxade gerou Sal\u00e1, e este gerou H\u00e9ber."
+    },
+    {
+      "number": 19,
+      "text": "A H\u00e9ber nasceram dois filhos: Um deles se chamou Pelegue, porque em sua \u00e9poca a terra foi dividida; seu irm\u00e3o chamou-se Joct\u00e3."
+    },
+    {
+      "number": 20,
+      "text": "Joct\u00e3 gerou Almod\u00e1, Salefe, Hazarmav\u00e9, Jer\u00e1,"
+    },
+    {
+      "number": 21,
+      "text": "Hador\u00e3o, Uzal, Dicla,"
+    },
+    {
+      "number": 22,
+      "text": "Obal, Abimael, Sab\u00e1,"
+    },
+    {
+      "number": 23,
+      "text": "Ofir, Havil\u00e1 e Jobabe. Todos esses foram filhos de Joct\u00e3."
+    },
+    {
+      "number": 24,
+      "text": "Sem, Arfaxade, Sal\u00e1,"
+    },
+    {
+      "number": 25,
+      "text": "H\u00e9ber, Pelegue, Re\u00fa,"
+    },
+    {
+      "number": 26,
+      "text": "Serugue, Naor, Ter\u00e1"
+    },
+    {
+      "number": 27,
+      "text": "e Abr\u00e3o, que \u00e9 Abra\u00e3o."
+    },
+    {
+      "number": 28,
+      "text": "Estes foram os filhos de Abra\u00e3o: Isaque e Ismael."
+    },
+    {
+      "number": 29,
+      "text": "Foram estes os seus descendentes: Nebaiote, o filho mais velho de Ismael, Quedar, Adbeel, Mibs\u00e3o,"
+    },
+    {
+      "number": 30,
+      "text": "Misma, Dum\u00e1, Mass\u00e1, Hadade, Tem\u00e1,"
+    },
+    {
+      "number": 31,
+      "text": "Jetur, Nafis e Quedem\u00e1. Esses foram os filhos de Ismael."
+    },
+    {
+      "number": 32,
+      "text": "Estes foram os filhos de Abra\u00e3o com sua concubina Quetura: Zinr\u00e3, Jocs\u00e3, Med\u00e3, Midi\u00e3, Isbaque e Su\u00e1. Foram estes os filhos de Jocs\u00e3: Sab\u00e1 e Ded\u00e3."
+    },
+    {
+      "number": 33,
+      "text": "Foram estes os filhos de Midi\u00e3: Ef\u00e1, \u00c9fer, Enoque, Abida e Elda. Todos esses foram descendentes de Quetura."
+    },
+    {
+      "number": 34,
+      "text": "Abra\u00e3o gerou Isaque. Estes foram os filhos de Isaque: Esa\u00fa e Israel."
+    },
+    {
+      "number": 35,
+      "text": "Estes foram os filhos de Esa\u00fa: Elifaz, Reuel, Je\u00fas, Jal\u00e3o e Cor\u00e1."
+    },
+    {
+      "number": 36,
+      "text": "Estes foram os filhos de Elifaz: Tem\u00e3, Omar, Zef\u00f4, Gaet\u00e3 e Quenaz; e Amaleque, de Timna, sua concumbina."
+    },
+    {
+      "number": 37,
+      "text": "Estes foram os filhos de Reuel: Naate, Zer\u00e1, Sam\u00e1 e Miz\u00e1."
+    },
+    {
+      "number": 38,
+      "text": "Estes foram os filhos de Seir: Lot\u00e3, Sobal, Zibe\u00e3o, An\u00e1, Disom, Eser e Dis\u00e3. Lot\u00e3 tinha uma irm\u00e3 chamada Timna."
+    },
+    {
+      "number": 39,
+      "text": "Estes foram os filhos de Lot\u00e3: Hori e Hom\u00e3."
+    },
+    {
+      "number": 40,
+      "text": "Estes foram os filhos de Sobal: Alv\u00e3, Manaate, Ebal, Sef\u00f4 e On\u00e3. Estes foram os filhos de Zibe\u00e3o: Ai\u00e1 e An\u00e1."
+    },
+    {
+      "number": 41,
+      "text": "Este foi o filho de An\u00e1: Disom. Estes foram os filhos de Disom: Hend\u00e3, Esb\u00e3, Itr\u00e3 e Quer\u00e3."
+    },
+    {
+      "number": 42,
+      "text": "Estes foram os filhos de Eser: Bil\u00e3, Zaav\u00e3 e Ac\u00e3. Estes foram os filhos de Dis\u00e3: Uz e Ar\u00e3."
+    },
+    {
+      "number": 43,
+      "text": "Estes foram os reis que reinaram no territ\u00f3rio de Edom antes que os israelitas tivessem um rei: Bel\u00e1, filho de Beor. Sua cidade chamava-se Dinab\u00e1."
+    },
+    {
+      "number": 44,
+      "text": "Bel\u00e1 morreu, e Jobabe, filho de Zer\u00e1, de Bozra, foi o seu sucessor."
+    },
+    {
+      "number": 45,
+      "text": "Jobabe morreu, e Hus\u00e3, da terra dos temanitas, foi o seu sucessor."
+    },
+    {
+      "number": 46,
+      "text": "Hus\u00e3 morreu, e Hadade, filho de Bedade, que tinha derrotado os midianitas na terra de Moabe, foi o seu sucessor. Sua cidade chamava-se Avite."
+    },
+    {
+      "number": 47,
+      "text": "Hadade morreu, e Saml\u00e1 de Masreca foi o seu sucessor."
+    },
+    {
+      "number": 48,
+      "text": "Saml\u00e1 morreu, e Saul, de Reobote, pr\u00f3xima ao Eufrates, foi o seu sucessor."
+    },
+    {
+      "number": 49,
+      "text": "Saul morreu, e Baal-Han\u00e3, filho de Acbor, foi o seu sucessor."
+    },
+    {
+      "number": 50,
+      "text": "Baal-Han\u00e3 morreu, e Hadade foi o seu sucessor. Sua cidade chamava-se Pa\u00fa, e o nome de sua mulher era Meetabel, filha de Matrede e neta de Mezaabe."
+    },
+    {
+      "number": 51,
+      "text": "Ap\u00f3s a morte de Hadade, Edom foi governada pelos seguintes chefes: Timna, Alva, Jetete,"
+    },
+    {
+      "number": 52,
+      "text": "Oolibama, El\u00e1, Pinom,"
+    },
+    {
+      "number": 53,
+      "text": "Quenaz, Tem\u00e3, Mibzar,"
+    },
+    {
+      "number": 54,
+      "text": "Magdiel e Ir\u00e3. Foram esses os chefes de Edom."
+    }
+  ]
+}

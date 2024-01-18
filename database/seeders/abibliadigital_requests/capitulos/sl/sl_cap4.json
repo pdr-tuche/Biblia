@@ -1,0 +1,50 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 4,
+    "verses": 8
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Responde-me quando clamo, \u00f3 Deus que me faz justi\u00e7a! D\u00e1-me al\u00edvio da minha ang\u00fastia; Tem miseric\u00f3rdia de mim e ouve a minha ora\u00e7\u00e3o."
+    },
+    {
+      "number": 2,
+      "text": "At\u00e9 quando voc\u00eas, \u00f3 poderosos, ultrajar\u00e3o a minha honra? At\u00e9 quando estar\u00e3o amando ilus\u00f5es e buscando mentiras? Pausa"
+    },
+    {
+      "number": 3,
+      "text": "Saibam que o Senhor escolheu o piedoso; o Senhor ouvir\u00e1 quando eu o invocar."
+    },
+    {
+      "number": 4,
+      "text": "Quando voc\u00eas ficarem irados, n\u00e3o pequem; ao deitar-se reflitam nisso, e aquietem-se. Pausa"
+    },
+    {
+      "number": 5,
+      "text": "Ofere\u00e7am sacrif\u00edcios como Deus exige e confiem no Senhor."
+    },
+    {
+      "number": 6,
+      "text": "Muitos perguntam: \"Quem nos far\u00e1 desfrutar o bem? \" Faze, \u00f3 Senhor, resplandecer sobre n\u00f3s a luz do teu rosto!"
+    },
+    {
+      "number": 7,
+      "text": "Encheste o meu cora\u00e7\u00e3o de alegria, alegria maior do que a daqueles que t\u00eam fartura de trigo e de vinho."
+    },
+    {
+      "number": 8,
+      "text": "Em paz me deito e logo adorme\u00e7o, pois s\u00f3 tu, Senhor, me fazes viver em seguran\u00e7a."
+    }
+  ]
+}

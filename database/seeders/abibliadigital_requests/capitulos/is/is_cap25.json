@@ -1,0 +1,66 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "is",
+      "en": "is"
+    },
+    "name": "Isa\u00edas",
+    "author": "Isa\u00edas",
+    "group": "Profetas maiores",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 25,
+    "verses": 12
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Senhor, tu \u00e9s o meu Deus; eu te exaltarei e louvarei o teu nome, pois com grande perfei\u00e7\u00e3o tens feito maravilhas, coisas h\u00e1 muito planejadas."
+    },
+    {
+      "number": 2,
+      "text": "Fizeste da cidade um monte de entulho, da cidade fortificada uma ru\u00edna, da cidadela dos estrangeiros uma cidade inexistente, que jamais ser\u00e1 reconstru\u00edda."
+    },
+    {
+      "number": 3,
+      "text": "Por isso um povo forte te honrar\u00e1; a cidade das na\u00e7\u00f5es cru\u00e9is te temer\u00e1."
+    },
+    {
+      "number": 4,
+      "text": "Tens sido ref\u00fagio para os pobres, ref\u00fagio para o necessitado em sua afli\u00e7\u00e3o, abrigo contra a tempestade e sombra contra o calor quando o sopro dos cru\u00e9is \u00e9 como tempestade contra um muro"
+    },
+    {
+      "number": 5,
+      "text": "e como o calor do deserto. Tu silencias o bramido dos estrangeiros; assim como diminui o calor com a sombra de uma nuvem, tamb\u00e9m a can\u00e7\u00e3o dos tem\u00edveis \u00e9 emudecida."
+    },
+    {
+      "number": 6,
+      "text": "Neste monte o Senhor dos Ex\u00e9rcitos preparar\u00e1 um farto banquete para todos os povos, um banquete de vinho envelhecido, com carnes suculentas e o melhor vinho."
+    },
+    {
+      "number": 7,
+      "text": "Neste monte ele destruir\u00e1 o v\u00e9u que envolve todos os povos, a cortina que cobre todas as na\u00e7\u00f5es;"
+    },
+    {
+      "number": 8,
+      "text": "destruir\u00e1 a morte para sempre. O Soberano Senhor enxugar\u00e1 as l\u00e1grimas de todo o rosto e retirar\u00e1 de toda a terra a zombaria do seu povo. Foi o Senhor quem disse!"
+    },
+    {
+      "number": 9,
+      "text": "Naquele dia dir\u00e3o: \"Esse \u00e9 o nosso Deus; n\u00f3s confiamos nele, e ele nos salvou. Esse \u00e9 o Senhor, n\u00f3s confiamos nele; exultemos e alegremo-nos, pois ele nos salvou\"."
+    },
+    {
+      "number": 10,
+      "text": "Pois a m\u00e3o do Senhor repousar\u00e1 sobre este monte; mas Moabe ser\u00e1 pisoteado em seu pr\u00f3prio lugar, como a palha \u00e9 pisoteada na esterqueira."
+    },
+    {
+      "number": 11,
+      "text": "Ali Moabe estender\u00e1 as m\u00e3os, como faz o nadador para nadar, mas o Senhor abater\u00e1 o seu orgulho, apesar da habilidade das suas m\u00e3os."
+    },
+    {
+      "number": 12,
+      "text": "Abater\u00e1 as torres altas dos seus altos muros e os derrubar\u00e1; ele os lan\u00e7ar\u00e1 ao p\u00f3 da terra."
+    }
+  ]
+}

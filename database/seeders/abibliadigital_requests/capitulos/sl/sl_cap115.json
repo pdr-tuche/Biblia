@@ -1,0 +1,90 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 115,
+    "verses": 18
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "N\u00e3o a n\u00f3s, Senhor, nenhuma gl\u00f3ria para n\u00f3s, mas sim ao teu nome, por teu amor e por tua fidelidade!"
+    },
+    {
+      "number": 2,
+      "text": "Por que perguntam as na\u00e7\u00f5es: \"Onde est\u00e1 o Deus deles? \""
+    },
+    {
+      "number": 3,
+      "text": "O nosso Deus est\u00e1 nos c\u00e9us, e pode fazer tudo o que lhe agrada."
+    },
+    {
+      "number": 4,
+      "text": "Os \u00eddolos deles, de prata e ouro, s\u00e3o feitos por m\u00e3os humanas."
+    },
+    {
+      "number": 5,
+      "text": "T\u00eam boca, mas n\u00e3o podem falar, olhos, mas n\u00e3o podem ver;"
+    },
+    {
+      "number": 6,
+      "text": "t\u00eam ouvidos, mas n\u00e3o podem ouvir, nariz, mas n\u00e3o podem sentir cheiro;"
+    },
+    {
+      "number": 7,
+      "text": "t\u00eam m\u00e3os, mas nada podem apalpar, p\u00e9s, mas n\u00e3o podem andar; nem emitem som algum com a garganta."
+    },
+    {
+      "number": 8,
+      "text": "Tornem-se como eles aqueles que os fazem e todos os que neles confiam."
+    },
+    {
+      "number": 9,
+      "text": "Confie no Senhor, \u00f3 Israel! Ele \u00e9 o seu socorro e o seu escudo."
+    },
+    {
+      "number": 10,
+      "text": "Confiem no Senhor, sacerdotes! Ele \u00e9 o seu socorro e o seu escudo."
+    },
+    {
+      "number": 11,
+      "text": "Voc\u00eas que temem ao Senhor, confiem no Senhor! Ele \u00e9 o seu socorro e o seu escudo."
+    },
+    {
+      "number": 12,
+      "text": "O Senhor lembra-se de n\u00f3s e nos aben\u00e7oar\u00e1: Aben\u00e7oar\u00e1 os israelitas, aben\u00e7oar\u00e1 os sacerdotes,"
+    },
+    {
+      "number": 13,
+      "text": "aben\u00e7oar\u00e1 os que temem o Senhor, do menor ao maior."
+    },
+    {
+      "number": 14,
+      "text": "Que o Senhor os multiplique, a voc\u00eas e aos seus filhos."
+    },
+    {
+      "number": 15,
+      "text": "Sejam voc\u00eas aben\u00e7oados pelo Senhor, que fez os c\u00e9us e a terra."
+    },
+    {
+      "number": 16,
+      "text": "Os mais altos c\u00e9us pertencem ao Senhor, mas a terra ele a confiou ao homem."
+    },
+    {
+      "number": 17,
+      "text": "Os mortos n\u00e3o louvam o Senhor, tampouco nenhum dos que descem ao sil\u00eancio."
+    },
+    {
+      "number": 18,
+      "text": "Mas n\u00f3s bendiremos o Senhor, desde agora e para sempre! Aleluia!"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 142,
+    "verses": 7
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Em alta voz clamo ao Senhor; elevo a minha voz ao Senhor, suplicando miseric\u00f3rdia."
+    },
+    {
+      "number": 2,
+      "text": "Derramo diante dele o meu lamento; a ele apresento a minha ang\u00fastia."
+    },
+    {
+      "number": 3,
+      "text": "Quando o meu esp\u00edrito se desanima, \u00e9s tu quem conhece o caminho que devo seguir. Na vereda por onde ando esconderam uma armadilha contra mim."
+    },
+    {
+      "number": 4,
+      "text": "Olha para a minha direita e v\u00ea; ningu\u00e9m se preocupa comigo. N\u00e3o tenho abrigo seguro; ningu\u00e9m se importa com a minha vida."
+    },
+    {
+      "number": 5,
+      "text": "Clamo a ti, Senhor, e digo: \"Tu \u00e9s o meu ref\u00fagio; \u00e9s tudo o que tenho que na terra dos viventes."
+    },
+    {
+      "number": 6,
+      "text": "D\u00e1 aten\u00e7\u00e3o ao meu clamor, pois estou muito abatido; livra-me dos que me perseguem, pois s\u00e3o mais fortes do que eu."
+    },
+    {
+      "number": 7,
+      "text": "Liberta-me da pris\u00e3o, e renderei gra\u00e7as ao teu nome. Ent\u00e3o os justos se reunir\u00e3o \u00e0 minha volta por causa da tua bondade para comigo\"."
+    }
+  ]
+}

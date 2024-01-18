@@ -1,0 +1,38 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 100,
+    "verses": 5
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Aclamem o Senhor todos os habitantes da terra!"
+    },
+    {
+      "number": 2,
+      "text": "Prestem culto ao Senhor com alegria; entrem na sua presen\u00e7a com c\u00e2nticos alegres."
+    },
+    {
+      "number": 3,
+      "text": "Reconhe\u00e7am que ele \u00e9 o nosso Deus. Ele nos fez e somos dele: somos o seu povo, e rebanho do seu pastoreio."
+    },
+    {
+      "number": 4,
+      "text": "Entrem por suas portas com a\u00e7\u00f5es de gra\u00e7as, e em seus \u00e1trios, com louvor; d\u00eaem-lhe gra\u00e7as e bendigam o seu nome."
+    },
+    {
+      "number": 5,
+      "text": "Pois o Senhor \u00e9 bom e o seu amor leal \u00e9 eterno; a sua fidelidade permanece por todas as gera\u00e7\u00f5es."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 135,
+    "verses": 21
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Aleluia! Louvem o nome do Senhor; louvem-no, servos do Senhor,"
+    },
+    {
+      "number": 2,
+      "text": "voc\u00eas, que servem na casa do Senhor, nos p\u00e1tios da casa de nosso Deus."
+    },
+    {
+      "number": 3,
+      "text": "Louvem o Senhor, pois o Senhor \u00e9 bom; cantem louvores ao seu nome, pois \u00e9 nome am\u00e1vel."
+    },
+    {
+      "number": 4,
+      "text": "Porque o Senhor escolheu a Jac\u00f3, a Israel como seu tesouro pessoal."
+    },
+    {
+      "number": 5,
+      "text": "Na verdade, sei que o Senhor \u00e9 grande, que o nosso Soberano \u00e9 maior do que todos os deuses."
+    },
+    {
+      "number": 6,
+      "text": "O Senhor faz tudo o que lhe agrada, nos c\u00e9us e na terra, nos mares e em todas as suas profundezas."
+    },
+    {
+      "number": 7,
+      "text": "Ele traz as nuvens desde os confins da terra; envia os rel\u00e2mpagos que acompanham a chuva e faz que o vento saia dos seus dep\u00f3sitos."
+    },
+    {
+      "number": 8,
+      "text": "Foi ele que matou os primog\u00eanitos do Egito, tanto dos homens como dos animais."
+    },
+    {
+      "number": 9,
+      "text": "Ele realizou em pleno Egito sinais e maravilhas, contra o fara\u00f3 e todos os seus conselheiros."
+    },
+    {
+      "number": 10,
+      "text": "Foi ele quem feriu muitas na\u00e7\u00f5es e matou reis poderosos:"
+    },
+    {
+      "number": 11,
+      "text": "Seom, rei dos amorreus, Ogue, rei de Bas\u00e3, e todos os reinos de Cana\u00e3;"
+    },
+    {
+      "number": 12,
+      "text": "e deu a terra deles como heran\u00e7a, como heran\u00e7a a seu povo Israel."
+    },
+    {
+      "number": 13,
+      "text": "O teu nome, Senhor, permanece para sempre, a tua fama, Senhor, por todas as gera\u00e7\u00f5es!"
+    },
+    {
+      "number": 14,
+      "text": "O Senhor defender\u00e1 o seu povo e ter\u00e1 compaix\u00e3o dos seus servos."
+    },
+    {
+      "number": 15,
+      "text": "Os \u00eddolos das na\u00e7\u00f5es n\u00e3o passam de prata e ouro, feitos por m\u00e3os humanas."
+    },
+    {
+      "number": 16,
+      "text": "T\u00eam boca, mas n\u00e3o podem falar, olhos, mas n\u00e3o podem ver;"
+    },
+    {
+      "number": 17,
+      "text": "t\u00eam ouvidos, mas n\u00e3o podem escutar, nem h\u00e1 respira\u00e7\u00e3o em sua boca."
+    },
+    {
+      "number": 18,
+      "text": "Tornem-se como eles aqueles que os fazem e todos os que neles confiam."
+    },
+    {
+      "number": 19,
+      "text": "Bendiga o Senhor, \u00f3 israelitas! Bendiga o Senhor, \u00f3 sacerdotes!"
+    },
+    {
+      "number": 20,
+      "text": "Bendiga o Senhor, \u00f3 levitas! Bendigam o Senhor os que temem ao Senhor!"
+    },
+    {
+      "number": 21,
+      "text": "Bendito seja o Senhor desde Si\u00e3o, aquele que habita em Jerusal\u00e9m. Aleluia!"
+    }
+  ]
+}

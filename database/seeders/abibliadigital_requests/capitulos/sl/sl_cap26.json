@@ -1,0 +1,66 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 26,
+    "verses": 12
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Faze-me justi\u00e7a, Senhor, pois tenho vivido com integridade. Tenho confiado no Senhor, sem vacila\u00e7\u00e3o."
+    },
+    {
+      "number": 2,
+      "text": "Sonda-me, Senhor, e prova-me, examina o meu cora\u00e7\u00e3o e a minha mente;"
+    },
+    {
+      "number": 3,
+      "text": "pois o teu amor est\u00e1 sempre diante de mim, e continuamente sigo a tua verdade."
+    },
+    {
+      "number": 4,
+      "text": "N\u00e3o me associo com homens falsos, nem ando com hip\u00f3critas;"
+    },
+    {
+      "number": 5,
+      "text": "detesto o ajuntamento dos malfeitores, e n\u00e3o me assento com os \u00edmpios."
+    },
+    {
+      "number": 6,
+      "text": "Lavo as m\u00e3os na inoc\u00eancia, e do teu altar, Senhor, me aproximo"
+    },
+    {
+      "number": 7,
+      "text": "cantando hinos de gratid\u00e3o e falando de todas as tuas maravilhas."
+    },
+    {
+      "number": 8,
+      "text": "Eu amo, Senhor, o lugar da tua habita\u00e7\u00e3o, onde a tua gl\u00f3ria habita."
+    },
+    {
+      "number": 9,
+      "text": "N\u00e3o me d\u00eas o destino dos pecadores, nem o fim dos assassinos;"
+    },
+    {
+      "number": 10,
+      "text": "suas m\u00e3os executam planos perversos, praticam suborno abertamente."
+    },
+    {
+      "number": 11,
+      "text": "Mas eu vivo com integridade; livra-me e tem miseric\u00f3rdia de mim."
+    },
+    {
+      "number": 12,
+      "text": "Os meus p\u00e9s est\u00e3o firmes na retid\u00e3o; na grande assembl\u00e9ia bendirei o Senhor."
+    }
+  ]
+}

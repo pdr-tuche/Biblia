@@ -1,0 +1,58 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 24,
+    "verses": 10
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Do Senhor \u00e9 a terra e tudo o que nela existe, o mundo e os que nele vivem;"
+    },
+    {
+      "number": 2,
+      "text": "pois foi ele quem fundou-a sobre os mares e firmou-a sobre as \u00e1guas."
+    },
+    {
+      "number": 3,
+      "text": "Quem poder\u00e1 subir o monte do Senhor? Quem poder\u00e1 entrar no seu Santo Lugar?"
+    },
+    {
+      "number": 4,
+      "text": "Aquele que tem as m\u00e3os limpas e o cora\u00e7\u00e3o puro, que n\u00e3o recorre aos \u00eddolos nem jura por deuses falsos."
+    },
+    {
+      "number": 5,
+      "text": "Ele receber\u00e1 b\u00ean\u00e7\u00e3os do Senhor, e Deus, o seu Salvador lhe far\u00e1 justi\u00e7a."
+    },
+    {
+      "number": 6,
+      "text": "S\u00e3o assim aqueles que o buscam, que buscam a tua face, \u00f3 Deus de Jac\u00f3. Pausa"
+    },
+    {
+      "number": 7,
+      "text": "Abram-se, \u00f3 portais; abram-se, \u00f3 portas antigas, para que o Rei da gl\u00f3ria entre."
+    },
+    {
+      "number": 8,
+      "text": "Quem \u00e9 o Rei da gl\u00f3ria? O Senhor forte e valente, o Senhor valente nas guerras."
+    },
+    {
+      "number": 9,
+      "text": "Abram-se, \u00f3 portais; abram-se, \u00f3 portas antigas, para que o Rei da gl\u00f3ria entre."
+    },
+    {
+      "number": 10,
+      "text": "Quem \u00e9 esse Rei da gl\u00f3ria? O Senhor dos Ex\u00e9rcitos; ele \u00e9 o Rei da gl\u00f3ria! Pausa"
+    }
+  ]
+}

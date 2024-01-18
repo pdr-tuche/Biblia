@@ -1,0 +1,62 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 63,
+    "verses": 11
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "\u00d3 Deus, tu \u00e9s o meu Deus, eu te busco intensamente; a minha alma tem sede de ti! Todo o meu ser anseia por ti, numa terra seca, exausta e sem \u00e1gua."
+    },
+    {
+      "number": 2,
+      "text": "Quero contemplar-te no santu\u00e1rio e avistar o teu poder e a tua gl\u00f3ria."
+    },
+    {
+      "number": 3,
+      "text": "O teu amor \u00e9 melhor do que a vida! Por isso os meus l\u00e1bios te exaltar\u00e3o."
+    },
+    {
+      "number": 4,
+      "text": "Eu te bendirei enquanto viver, e em teu nome levantarei as minhas m\u00e3os."
+    },
+    {
+      "number": 5,
+      "text": "A minha alma ficar\u00e1 satisfeita como de rico banquete; com l\u00e1bios jubilosos a minha boca te louvar\u00e1."
+    },
+    {
+      "number": 6,
+      "text": "Quando me deito lembro-me de ti; penso em ti durante as vig\u00edlias da noite."
+    },
+    {
+      "number": 7,
+      "text": "Porque \u00e9s a minha ajuda, canto de alegria \u00e0 sombra das tuas asas."
+    },
+    {
+      "number": 8,
+      "text": "A minha alma apega-se a ti; a tua m\u00e3o direita me sust\u00e9m."
+    },
+    {
+      "number": 9,
+      "text": "Aqueles, por\u00e9m, que querem matar-me ser\u00e3o destru\u00eddos; descer\u00e3o \u00e0s profundezas da terra."
+    },
+    {
+      "number": 10,
+      "text": "Ser\u00e3o entregues \u00e0 espada e devorados por chacais."
+    },
+    {
+      "number": 11,
+      "text": "Mas o rei se alegrar\u00e1 em Deus; todos os que juram pelo nome de Deus o louvar\u00e3o, mas as bocas dos mentirosos ser\u00e3o tapadas."
+    }
+  ]
+}

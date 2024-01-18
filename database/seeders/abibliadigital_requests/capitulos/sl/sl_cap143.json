@@ -1,0 +1,66 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 143,
+    "verses": 12
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ouve, Senhor, a minha ora\u00e7\u00e3o, d\u00e1 ouvidos \u00e0 minha s\u00faplica; responde-me por tua fidelidade e por tua justi\u00e7a."
+    },
+    {
+      "number": 2,
+      "text": "Mas n\u00e3o leves o teu servo a julgamento, pois ningu\u00e9m \u00e9 justo diante de ti."
+    },
+    {
+      "number": 3,
+      "text": "O inimigo persegue-me e esmaga-me ao ch\u00e3o; ele me faz morar nas trevas, como os que h\u00e1 muito morreram."
+    },
+    {
+      "number": 4,
+      "text": "O meu esp\u00edrito se desanima; o meu cora\u00e7\u00e3o est\u00e1 em p\u00e2nico."
+    },
+    {
+      "number": 5,
+      "text": "Eu me recordo dos tempos antigos; medito em todas as tuas obras e considero o que as tuas m\u00e3os t\u00eam feito."
+    },
+    {
+      "number": 6,
+      "text": "Estendo as minhas m\u00e3os para ti; como a terra \u00e1rida, tenho sede de ti. Pausa"
+    },
+    {
+      "number": 7,
+      "text": "Apressa-te em responder-me, Senhor! O meu esp\u00edrito se abate. N\u00e3o escondas de mim o teu rosto, ou serei como os que descem \u00e0 cova."
+    },
+    {
+      "number": 8,
+      "text": "Faze-me ouvir do teu amor leal pela manh\u00e3, pois em ti confio. Mostra-me o caminho que devo seguir, pois a ti elevo a minha alma."
+    },
+    {
+      "number": 9,
+      "text": "Livra-me dos meus inimigos, Senhor, pois em ti eu me abrigo."
+    },
+    {
+      "number": 10,
+      "text": "Ensina-me a fazer a tua vontade, pois tu \u00e9s o meu Deus; que o teu bondoso Esp\u00edrito me conduza por terreno plano."
+    },
+    {
+      "number": 11,
+      "text": "Preserva-me a vida, Senhor, por causa do teu nome, por tua justi\u00e7a, tira-me desta ang\u00fastia."
+    },
+    {
+      "number": 12,
+      "text": "E no teu amor leal, aniquila os meus inimigos; destr\u00f3i todos os meus advers\u00e1rios, pois sou teu servo."
+    }
+  ]
+}

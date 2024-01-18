@@ -1,0 +1,42 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 13,
+    "verses": 6
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "At\u00e9 quando, Senhor? Para sempre te esquecer\u00e1s de mim? At\u00e9 quando esconder\u00e1s de mim o teu rosto?"
+    },
+    {
+      "number": 2,
+      "text": "At\u00e9 quando terei inquieta\u00e7\u00f5es e tristeza no cora\u00e7\u00e3o dia ap\u00f3s dia? At\u00e9 quando o meu inimigo triunfar\u00e1 sobre mim?"
+    },
+    {
+      "number": 3,
+      "text": "Olha para mim e responde, Senhor meu Deus. Ilumina os meus olhos, do contr\u00e1rio dormirei o sono da morte;"
+    },
+    {
+      "number": 4,
+      "text": "os meus inimigos dir\u00e3o: \"Eu o venci\", e os meus advers\u00e1rios festejar\u00e3o o meu fracasso."
+    },
+    {
+      "number": 5,
+      "text": "Eu, por\u00e9m, confio em teu amor; o meu cora\u00e7\u00e3o exulta em tua salva\u00e7\u00e3o."
+    },
+    {
+      "number": 6,
+      "text": "Quero cantar ao Senhor pelo bem que me tem feito."
+    }
+  ]
+}

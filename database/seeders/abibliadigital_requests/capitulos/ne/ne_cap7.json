@@ -1,0 +1,310 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "ne",
+      "en": "ne"
+    },
+    "name": "Neemias",
+    "author": "Neemias",
+    "group": "Hist\u00f3ricos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 7,
+    "verses": 73
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Depois que o muro foi reconstru\u00eddo e que eu coloquei as portas no lugar, foram nomeados os porteiros, os cantores e os levitas."
+    },
+    {
+      "number": 2,
+      "text": "Para governar Jerusal\u00e9m encarreguei o meu irm\u00e3o Hanani e, com ele, Hananias, comandante da cidade forte, pois Hananias era \u00edntegro e temia a Deus mais do que a maioria dos homens."
+    },
+    {
+      "number": 3,
+      "text": "Eu lhes disse: As portas de Jerusal\u00e9m n\u00e3o dever\u00e3o ser abertas enquanto o sol n\u00e3o estiver alto. E antes de deixarem o servi\u00e7o, os porteiros dever\u00e3o fechar e travar as portas. Tamb\u00e9m designei moradores de Jerusal\u00e9m para sentinelas, alguns em postos no muro, outros em frente das suas casas."
+    },
+    {
+      "number": 4,
+      "text": "Ora, a cidade era grande e espa\u00e7osa, mas havia poucos moradores, e as casas ainda n\u00e3o tinham sido reconstru\u00eddas."
+    },
+    {
+      "number": 5,
+      "text": "Por isso o meu Deus p\u00f4s no meu cora\u00e7\u00e3o reunir os nobres, os oficiais e todo o povo para registr\u00e1-los por fam\u00edlias. Encontrei o registro geneal\u00f3gico dos que foram os primeiros a voltar. E assim estava registrado ali:"
+    },
+    {
+      "number": 6,
+      "text": "Estes s\u00e3o os homens da prov\u00edncia que voltaram do ex\u00edlio, os quais Nabucodonosor, rei da Babil\u00f4nia, havia levado prisioneiros. Eles voltaram para Jerusal\u00e9m e para Jud\u00e1, cada um para a sua pr\u00f3pria cidade,"
+    },
+    {
+      "number": 7,
+      "text": "em companhia de Zorobabel, Jesua, Neemias, Azarias, Raamias, Naamani, Mardoqueu, Bils\u00e3, Misperete, Bigvai, Neum e Baan\u00e1. E esta \u00e9 a lista e o n\u00famero dos que retornaram, pelos chefes de fam\u00edlia e respectivas cidades:"
+    },
+    {
+      "number": 8,
+      "text": "os descendentes de Par\u00f3s 2. 172"
+    },
+    {
+      "number": 9,
+      "text": "de Sefatias 372"
+    },
+    {
+      "number": 10,
+      "text": "de Ara 652"
+    },
+    {
+      "number": 11,
+      "text": "de Paate-Moabe, por meio da linhagem de Jesua e Joabe, 2. 818"
+    },
+    {
+      "number": 12,
+      "text": "de El\u00e3o 1. 254"
+    },
+    {
+      "number": 13,
+      "text": "de Zatu 845"
+    },
+    {
+      "number": 14,
+      "text": "de Zacai 760"
+    },
+    {
+      "number": 15,
+      "text": "de Binui 648"
+    },
+    {
+      "number": 16,
+      "text": "de Bebai 628"
+    },
+    {
+      "number": 17,
+      "text": "de Azgade 2. 322"
+    },
+    {
+      "number": 18,
+      "text": "de Adonic\u00e3o 667"
+    },
+    {
+      "number": 19,
+      "text": "de Bigvai 2. 067"
+    },
+    {
+      "number": 20,
+      "text": "de Adim 655"
+    },
+    {
+      "number": 21,
+      "text": "de Ater, por meio de Ezequias, 98"
+    },
+    {
+      "number": 22,
+      "text": "de Hasum 328"
+    },
+    {
+      "number": 23,
+      "text": "de Besai 324"
+    },
+    {
+      "number": 24,
+      "text": "de Harife 112"
+    },
+    {
+      "number": 25,
+      "text": "de Gibeom 95"
+    },
+    {
+      "number": 26,
+      "text": "das cidades de Bel\u00e9m e de Netofate 188"
+    },
+    {
+      "number": 27,
+      "text": "de Anatote 128"
+    },
+    {
+      "number": 28,
+      "text": "de Bete-Azmavete 42"
+    },
+    {
+      "number": 29,
+      "text": "de Quiriate-Jearim, Cefira e Beerote 743"
+    },
+    {
+      "number": 30,
+      "text": "de Ram\u00e1 e Geba 621"
+    },
+    {
+      "number": 31,
+      "text": "de Micm\u00e1s 122"
+    },
+    {
+      "number": 32,
+      "text": "de Betel e Ai 123"
+    },
+    {
+      "number": 33,
+      "text": "do outro Nebo 52"
+    },
+    {
+      "number": 34,
+      "text": "do outro El\u00e3o 1. 254"
+    },
+    {
+      "number": 35,
+      "text": "de Harim 320"
+    },
+    {
+      "number": 36,
+      "text": "de Jeric\u00f3 345"
+    },
+    {
+      "number": 37,
+      "text": "de Lode, Hadide e Ono 721"
+    },
+    {
+      "number": 38,
+      "text": "de Sena\u00e1 3. 930."
+    },
+    {
+      "number": 39,
+      "text": "Os sacerdotes: os descendentes de Jeda\u00edas, por meio da fam\u00edlia de Jesua, 973"
+    },
+    {
+      "number": 40,
+      "text": "de Imer 1. 052"
+    },
+    {
+      "number": 41,
+      "text": "de Pasur 1. 247"
+    },
+    {
+      "number": 42,
+      "text": "de Harim 1. 017."
+    },
+    {
+      "number": 43,
+      "text": "Os levitas: os descendentes de Jesua, por meio de Cadmiel, pela linhagem de Hodeva 74."
+    },
+    {
+      "number": 44,
+      "text": "Os cantores: os descendentes de Asafe 148."
+    },
+    {
+      "number": 45,
+      "text": "Os porteiros do templo: os descendentes de Salum, Ater, Talmom, Acube, Hatita e Sobai 138."
+    },
+    {
+      "number": 46,
+      "text": "Os servidores do templo: os descendentes de Zia, Hasufa, Tabaote,"
+    },
+    {
+      "number": 47,
+      "text": "Queros, Sia, Padom,"
+    },
+    {
+      "number": 48,
+      "text": "Lebana, Hagaba, Salmai,"
+    },
+    {
+      "number": 49,
+      "text": "Han\u00e3, Gidel, Gaar,"
+    },
+    {
+      "number": 50,
+      "text": "Rea\u00edas, Rezim, Necoda,"
+    },
+    {
+      "number": 51,
+      "text": "Gaz\u00e3o, Uz\u00e1, Pas\u00e9ia,"
+    },
+    {
+      "number": 52,
+      "text": "Besai, Meunim, Nefusim,"
+    },
+    {
+      "number": 53,
+      "text": "Baquebuque, Hacufa, Harur,"
+    },
+    {
+      "number": 54,
+      "text": "Baslite, Me\u00edda, Harsa,"
+    },
+    {
+      "number": 55,
+      "text": "Barcos, S\u00edsera, Tam\u00e1,"
+    },
+    {
+      "number": 56,
+      "text": "Nesias e Hatifa."
+    },
+    {
+      "number": 57,
+      "text": "Os descendentes dos servos de Salom\u00e3o: os descendentes de Sotai, Soferete, Perida,"
+    },
+    {
+      "number": 58,
+      "text": "Jaala, Darcom, Gidel,"
+    },
+    {
+      "number": 59,
+      "text": "Sefatias, Hatil, Poquerete-Hazebaim e Amom."
+    },
+    {
+      "number": 60,
+      "text": "Os servos do templo e os descendentes dos servos de Salom\u00e3o 392."
+    },
+    {
+      "number": 61,
+      "text": "Os que chegaram das cidades de Tel-Mel\u00e1, Tel-Harsa, Querube, Adom e Imer, mas n\u00e3o puderam provar que suas fam\u00edlias eram descendentes de Israel:"
+    },
+    {
+      "number": 62,
+      "text": "Os descendentes de Dela\u00edas, Tobias e Necoda 642."
+    },
+    {
+      "number": 63,
+      "text": "E dentre os sacerdotes: os descendentes de Haba\u00edas, Coz e Barzilai, homem que se casou com uma filha de Barzilai, de Gileade, e que era chamado por aquele nome."
+    },
+    {
+      "number": 64,
+      "text": "Esses procuraram seus registros de fam\u00edlia, mas n\u00e3o conseguiram ach\u00e1-los e, dessa forma, foram considerados impuros para o sacerd\u00f3cio."
+    },
+    {
+      "number": 65,
+      "text": "Por isso o governador determinou que eles n\u00e3o comessem das ofertas sant\u00edssimas enquanto n\u00e3o houvesse um sacerdote para consultar o Urim e o Tumim."
+    },
+    {
+      "number": 66,
+      "text": "O total de todos os registrados foi 42. 360 homens,"
+    },
+    {
+      "number": 67,
+      "text": "al\u00e9m de seus 7. 337 servos e servas; havia entre eles 245 cantores e cantoras."
+    },
+    {
+      "number": 68,
+      "text": "Possu\u00edam 736 cavalos, 245 mulas,"
+    },
+    {
+      "number": 69,
+      "text": "435 camelos e 6. 720 jumentos."
+    },
+    {
+      "number": 70,
+      "text": "Alguns dos chefes das fam\u00edlias contribu\u00edram para o trabalho. O governador deu \u00e0 tesouraria oito quilos de ouro, 50 bacias e 530 vestes para os sacerdotes."
+    },
+    {
+      "number": 71,
+      "text": "Alguns dos chefes das fam\u00edlias deram \u00e0 tesouraria, para a realiza\u00e7\u00e3o do trabalho, cento e sessenta quilos de ouro e uma tonelada e trezentos e vinte quilos de prata."
+    },
+    {
+      "number": 72,
+      "text": "O total dado pelo restante do povo foi de cento e sessenta quilos de ouro, uma tonelada e duzentos quilos de prata e 67 vestes para os sacerdotes."
+    },
+    {
+      "number": 73,
+      "text": "Os sacerdotes, os levitas, os porteiros, os cantores e os servidores do templo, e tamb\u00e9m alguns do povo e os demais israelitas, estabeleceram-se em suas pr\u00f3prias cidades. Quando chegou o s\u00e9timo m\u00eas e os israelitas tinham se instalado em suas cidades,"
+    }
+  ]
+}

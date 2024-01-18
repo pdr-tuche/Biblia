@@ -1,0 +1,58 @@
+{
+  "book": {
+    "abbrev": {
+      "pt": "sl",
+      "en": "ps"
+    },
+    "name": "Salmos",
+    "author": "David, Mois\u00e9s, Salom\u00e3o",
+    "group": "Po\u00e9ticos",
+    "version": "nvi"
+  },
+  "chapter": {
+    "number": 146,
+    "verses": 10
+  },
+  "verses": [
+    {
+      "number": 1,
+      "text": "Aleluia! Louve, \u00f3 minha alma ao Senhor."
+    },
+    {
+      "number": 2,
+      "text": "Louvarei ao Senhor por toda a minha vida; cantarei louvores ao meu Deus enquanto eu viver."
+    },
+    {
+      "number": 3,
+      "text": "N\u00e3o confiem em pr\u00edncipes, em meros mortais, incapazes de salvar."
+    },
+    {
+      "number": 4,
+      "text": "Quando o esp\u00edrito deles se vai, voltam ao p\u00f3; naquele mesmo dia acabam-se os seus planos."
+    },
+    {
+      "number": 5,
+      "text": "Como \u00e9 feliz aquele cujo aux\u00edlio \u00e9 o Deus de Jac\u00f3, cuja esperan\u00e7a est\u00e1 no Senhor, no seu Deus,"
+    },
+    {
+      "number": 6,
+      "text": "que fez os c\u00e9us e a terra, o mar e tudo o que neles h\u00e1, e que mant\u00e9m a sua fidelidade para sempre!"
+    },
+    {
+      "number": 7,
+      "text": "Ele defende a causa dos oprimidos e d\u00e1 alimento aos famintos. O Senhor liberta os presos,"
+    },
+    {
+      "number": 8,
+      "text": "o Senhor d\u00e1 vista aos cegos, o Senhor levanta os abatidos, o Senhor ama os justos."
+    },
+    {
+      "number": 9,
+      "text": "O Senhor protege o estrangeiro e sust\u00e9m o \u00f3rf\u00e3o e a vi\u00fava, mas frustra o prop\u00f3sito dos \u00edmpios."
+    },
+    {
+      "number": 10,
+      "text": "O Senhor reina para sempre! O teu Deus, \u00f3 Si\u00e3o, reina de gera\u00e7\u00e3o em gera\u00e7\u00e3o. Aleluia!"
+    }
+  ]
+}
