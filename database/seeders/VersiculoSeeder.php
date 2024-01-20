@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Versiculo;
+use Dflydev\DotAccessData\Data;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -11,80 +13,45 @@ class VersiculoSeeder extends Seeder
     /**
      * Run the database seeds.
      */
+    /*"capitulo",
+      "versiculo",
+	  "texto",
+	  "livro_id*/
     public function run(): void
     {
-        DB::table('versiculos')->insert([
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 1,
-                'texto' => 'No princípio, Deus criou os céus e a terra.',
-            ],
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 2,
-                'texto' => 'A terra era sem forma e vazia. Trevas cobriam a face do abismo, e o Espírito de Deus se movia sobre a face das águas.',
-            ],
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 3,
-                'texto' => 'Disse Deus: "Haja luz", e houve luz.',
-            ],
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 4,
-                'texto' => 'Deus viu que a luz era boa, e separou a luz das trevas.',
-            ],
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 5,
-                'texto' => 'E à luz Deus chamou "dia", e às trevas chamou "noite". Passaram-se a tarde e a manhã; esse foi o primeiro dia.',
-            ],
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 6,
-                'texto' => 'E disse Deus: "Haja entre as águas um firmamento que separe águas de águas".',
-            ],
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 7,
-                'texto' => 'Fez, pois, Deus o firmamento e separou as águas que ficaram abaixo do firmamento das que ficaram por cima. E assim foi.',
-            ],
-            [
-                'livro_id' => 1,
-                'capitulo' => 1,
-                'versiculo' => 8,
-                'texto' => 'Ao firmamento Deus chamou "céu". Passaram-se' .
-                    ' a tarde e a manhã; esse foi o segundo dia.',
-            ]
-        ]);
+        // 1º passo: saber quantos livros estao dentro da pasta capitulos
+        $scandirResponse = scandir(__DIR__ . '\abibliadigital_requests\capitulos');
+        $livros = array_slice($scandirResponse, 2); // remove os dois primeiros itens do array (.) e (..)
 
-        DB::table('versiculos')->insert([
-            'livro_id' => 23,
-            'capitulo' => 23,
-            'versiculo' => 4,
-            'texto' => 'Mesmo quando eu andar por um vale de trevas e morte, não temerei perigo algum, pois tu estás comigo; a tua vara e o teu cajado me protegem.'
-        ]);
+        // 2º passo: pegar o id do livro
+        foreach ($livros as $livro) {
+            $livroId = DB::table('livros')->where('abreviacao', $livro)->value('id');
 
-        DB::table('versiculos')->insert([
-            'livro_id' => 23,
-            'capitulo' => 125,
-            'versiculo' => 1,
-            'texto' => 'Os que confiam no Senhor são como o monte Sião, que não se pode abalar, mas permanece para sempre.'
-        ]);
+            // 3º passo: entrar na pasta do livro e escrever o capitulo com seus versiculos
+            $scandirResponse = scandir(__DIR__ . '\abibliadigital_requests\capitulos\\' . $livro);
+            $capitulos = array_slice($scandirResponse, 2);
+            foreach ($capitulos as $capitulo) {
+                $jsonFile = __DIR__ . '\abibliadigital_requests\capitulos\\' . $livro . '\\' . $capitulo;
+                if (file_exists($jsonFile)) {
+                    $json = file_get_contents($jsonFile);
+                    // Converte o JSON em um array associativo
+                    $data = json_decode($json, true);
+                    // Insere os dados na tabela
+                    $CapituloData = $data['chapter'];
+                    $VersiculosData = $data['verses'];
 
-        DB::table('versiculos')->insert([
-            'livro_id' => 65,
-            'capitulo' => 5,
-            'versiculo' => 7,
-            'texto' => 'Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.'
-        ]);
-
+                    foreach ($VersiculosData as $versiculo) {
+                        Versiculo::factory()->create([
+                            'capitulo' => $CapituloData['number'],
+                            'versiculo' => $versiculo['number'],
+                            'texto' => $versiculo['text'],
+                            'livro_id' => $livroId,
+                        ]);
+                    }
+                } else {
+                    $this->command->error('O arquivo JSON não foi encontrado.');
+                }
+            }
+        }
     }
 }
