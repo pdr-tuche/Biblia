@@ -22,7 +22,14 @@ Este projeto foi criado para me ajudar a aprender o framework Laravel.
     <summary>
         <h2>Rodar Localmente 💻</h2>
     </summary>
-    
+
+### Pré-requisitos:
+
+1. [PHP 8.2](https://www.php.net/downloads)
+2. [Composer](https://getcomposer.org/)
+
+### passos:
+
 1. clonar repositório:
 
 ```bash
@@ -37,7 +44,7 @@ composer install
 
 3. copie o conteúdo do arquivo `.env.example` em um arquivo `.env`
 
-4. configure o arquivo `.env` com as informações de conexao do seu SGBD (linha 11 a 16)
+4. configure o arquivo `.env` com as informações de conexao do seu banco de dados. (linha 11 a 16)
 
 5. crie uma nova chave para a aplicação
 
