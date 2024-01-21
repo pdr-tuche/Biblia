@@ -161,3 +161,5 @@ Para rodar os testes, rode o seguinte comando na pasta raiz
 3. 🎥 Conteúdo de testes do [Code Experts](https://youtube.com/playlist?list=PLswa9HeoJUq9wgbiNvXgueCetJepA6ekw&si=xVg8TW8j4_8wLXZ5)
 
 4. 📃 para criação das seeds utilizei a API d[a biblia digital](https://www.abibliadigital.com.br/)
+
+5. 📄 [criando serviços linux com systemd](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
