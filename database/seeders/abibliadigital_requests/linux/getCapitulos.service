@@ -1,0 +1,13 @@
+[Unit]
+Description=rodar_script_biblia
+After=network.target
+
+[Service]
+User=contato_nevespedro
+Group=contato_nevespedro
+WorkingDirectory=/home/contato_nevespedro/Biblia/database/seeders/abibliadigital_requests
+Environment="PATH=/home/contato_nevespedro/Biblia/database/seeders/abibliadigital_requests/venv/bin"
+ExecStart=/home/contato_nevespedro/Biblia/database/seeders/abibliadigital_requests/venv/bin/python /home/contato_nevespedro/Biblia/database/seeders/abibliadigital_requests/getCapitulos.py
+
+[Install]
+WantedBy=multi-user.target
