@@ -3,7 +3,7 @@
 @section('title', 'Versículos')
 
 @section('content')
-
+    <h1>Versículos</h1>
     @foreach ($versiculos as $versiculo)
         <div class="card">
             <div class="card-header">

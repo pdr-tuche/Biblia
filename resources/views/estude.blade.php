@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('title', 'goodbye')
+@section('title', 'Estude PHP imediatamente!')
 
 @section('content')
     <img src="/img/Akira_Ono_Holding_PHP.jpg" alt="Akira Ono do PHP">

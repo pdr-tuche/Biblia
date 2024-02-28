@@ -12,7 +12,7 @@ class WebVersiculoController extends Controller
 
     function index()
     {
-        return redirect("/livros");
+        return redirect()->route("livros")->with("message", "Escolha um livro para listar os versículos");
     }
 
     function list($livro)

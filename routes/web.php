@@ -22,15 +22,15 @@ use App\Http\Controllers\web\WebLivroController;
 //     return view('welcome');
 // });
 
-Route::view('/', 'welcome'); // outra forma de renderizar uma view
+Route::view('/', 'home'); // outra forma de renderizar uma view
 
-Route::get("/estude-laravel", [EstudeController::class, "index"]);
+Route::get("/estude-laravel", [EstudeController::class, "index"])->name("estude-laravel");
 
-Route::get("/testamentos", [WebTestamentoController::class, "index"]);
+Route::get("/testamentos", [WebTestamentoController::class, "index"])->name("testamentos");
 
-Route::get("/livros", [WebLivroController::class, "index"]);
-Route::get("/livros/{testamento}", [WebLivroController::class, "list"]);
+Route::get("/livros", [WebLivroController::class, "index"])->name("livros");
+Route::get("/livros/{testamento}", [WebLivroController::class, "list"])->name("livros.list");
 
-Route::get("/versiculos", [WebVersiculoController::class, "index"]);
-Route::get("/versiculos/{livro}", [WebVersiculoController::class, "list"]);
+Route::get("/versiculos", [WebVersiculoController::class, "index"])->name("versiculos");
+Route::get("/versiculos/{livro}", [WebVersiculoController::class, "list"])->name("versiculos.list");
 

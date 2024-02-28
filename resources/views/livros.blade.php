@@ -3,21 +3,25 @@
 @section('title', 'testamentos')
 
 @section('content')
-
-@foreach ($livros as $livro)
-    <div class="card">
-        <div class="card-header">
-            {{ $livro->abreviacao }}
+    @if (session('message'))
+        <div class="alert alert-success">
+            {{ session('message') }}
         </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <a href="/versiculos/{{$livro->id}}">
-                    <p>{{ $livro->nome }}</p>
-                </a>
-            </blockquote>
+    @endif
+    <h1>Livros</h1>
+    @foreach ($livros as $livro)
+        <div class="card">
+            <div class="card-header">
+                {{ $livro->abreviacao }}
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <a href="/versiculos/{{ $livro->id }}">
+                        <p>{{ $livro->nome }}</p>
+                    </a>
+                </blockquote>
+            </div>
         </div>
-    </div>
-
-@endforeach
+    @endforeach
 
 @endsection
