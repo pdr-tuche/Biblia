@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\web\EstudeController;
+use App\Http\Controllers\web\WebVersiculoController;
+use App\Http\Controllers\web\WebTestamentoController;
+use App\Http\Controllers\web\WebLivroController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +24,13 @@ use App\Http\Controllers\web\EstudeController;
 
 Route::view('/', 'welcome'); // outra forma de renderizar uma view
 
-Route::get("/rota", [EstudeController::class, "index"]);
+Route::get("/estude-laravel", [EstudeController::class, "index"]);
+
+Route::get("/testamentos", [WebTestamentoController::class, "index"]);
+
+Route::get("/livros", [WebLivroController::class, "index"]);
+Route::get("/livros/{testamento}", [WebLivroController::class, "list"]);
+
+Route::get("/versiculos", [WebVersiculoController::class, "index"]);
+Route::get("/versiculos/{livro}", [WebVersiculoController::class, "list"]);
+
