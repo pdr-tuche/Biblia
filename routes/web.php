@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\web\EstudeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::view('/', 'welcome'); // outra forma de renderizar uma view
+
+Route::get("/rota", [EstudeController::class, "index"]);
