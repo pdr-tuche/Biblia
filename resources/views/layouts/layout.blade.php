@@ -47,7 +47,6 @@
                         <a class="nav-link active" aria-current="page" href="/testamentos">Testamentos</a>
                         <a class="nav-link active" aria-current="page" href="/livros">Livros</a>
                         <a class="nav-link active" aria-current="page" href="/versiculos">Versiculos</a>
-                        <a class="nav-link" href="https://www.linkedin.com/in/pdr-neves/">Linkedin</a>
                     </div>
                 </div>
             </div>
